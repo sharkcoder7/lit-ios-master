@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="LITKBEmptyCollectionViewCell" id="kog-Fo-zkO" customClass="LITKBEmptyCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="140" height="140"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="140" height="140"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="plusCell" translatesAutoresizingMaskIntoConstraints="NO" id="fTd-tO-oI2">
+                        <rect key="frame" x="30" y="30" width="80" height="81"/>
+                    </imageView>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No internet connection. 😢" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qCD-DX-xtf">
+                        <rect key="frame" x="20" y="0.0" width="100" height="140"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="que-Y2-nYC"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="19"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <color key="backgroundColor" red="0.84705882352941175" green="0.84705882352941175" blue="0.84705882352941175" alpha="0.059999999999999998" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="fTd-tO-oI2" secondAttribute="trailing" constant="30" id="Bkn-IW-ChI"/>
+                <constraint firstItem="qCD-DX-xtf" firstAttribute="top" secondItem="kog-Fo-zkO" secondAttribute="top" id="FH6-zC-TDp"/>
+                <constraint firstAttribute="bottom" secondItem="qCD-DX-xtf" secondAttribute="bottom" id="HMB-uA-NZZ"/>
+                <constraint firstItem="fTd-tO-oI2" firstAttribute="leading" secondItem="kog-Fo-zkO" secondAttribute="leading" constant="30" id="PSW-Dn-zCy"/>
+                <constraint firstItem="fTd-tO-oI2" firstAttribute="top" secondItem="kog-Fo-zkO" secondAttribute="top" constant="30" id="crT-VH-cza"/>
+                <constraint firstItem="qCD-DX-xtf" firstAttribute="centerX" secondItem="kog-Fo-zkO" secondAttribute="centerX" id="iE3-MI-xdN"/>
+                <constraint firstAttribute="bottom" secondItem="fTd-tO-oI2" secondAttribute="bottom" constant="29" id="kKC-dw-8Zl"/>
+            </constraints>
+            <size key="customSize" width="102" height="112"/>
+            <connections>
+                <outlet property="noInternetConnection" destination="qCD-DX-xtf" id="xjk-Vc-qFd"/>
+                <outlet property="plusImageView" destination="fTd-tO-oI2" id="qKv-b3-dup"/>
+            </connections>
+            <point key="canvasLocation" x="261" y="131"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="plusCell" width="70" height="71"/>
+    </resources>
+</document>

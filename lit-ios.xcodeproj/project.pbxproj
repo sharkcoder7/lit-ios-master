@@ -1,0 +1,2321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56064A6D1B96EAD7001950B4 /* LITKBBaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56064A6C1B96EAD7001950B4 /* LITKBBaseCollectionViewCell.m */; };
+		56064A6E1B970278001950B4 /* LITProgressHud.m in Sources */ = {isa = PBXBuildFile; fileRef = 5681512E1B8DD07200AA3178 /* LITProgressHud.m */; };
+		560ABD011B9755630098A6A6 /* LITKBBaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56064A6C1B96EAD7001950B4 /* LITKBBaseCollectionViewCell.m */; };
+		56150EE71BFA52AF00653A70 /* LITTaggingCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56150EE61BFA52AF00653A70 /* LITTaggingCollectionViewController.m */; };
+		561D05A61BB56A48003CB627 /* LITKeyboardNoAccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 561D05A51BB56A48003CB627 /* LITKeyboardNoAccessViewController.m */; };
+		563652A71BA17F93008B994F /* LITCropperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 563652A61BA17F93008B994F /* LITCropperViewController.m */; };
+		56431BFA1C031FE500486AD2 /* PrivacyPolicy.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 56431BF81C031FE500486AD2 /* PrivacyPolicy.pdf */; };
+		56431BFB1C031FE500486AD2 /* TermsOfUse.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 56431BF91C031FE500486AD2 /* TermsOfUse.pdf */; };
+		5650913D1BCD055E005E4A1A /* CUSSenderFallLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5650913A1BCD055E005E4A1A /* CUSSenderFallLayer.m */; };
+		5650913E1BCD055E005E4A1A /* CUSSenderLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5650913C1BCD055E005E4A1A /* CUSSenderLayer.m */; };
+		565091411BCD0584005E4A1A /* CUSSenderFireLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 565091401BCD0584005E4A1A /* CUSSenderFireLayer.m */; };
+		565F5FEC1BA9B59500E50A76 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 569D04901BA98D7000ACDF2C /* SystemConfiguration.framework */; };
+		565F5FEF1BA9B93F00E50A76 /* LITNoInternetConnectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 565F5FEE1BA9B93F00E50A76 /* LITNoInternetConnectionViewController.m */; };
+		565FF24D1BE28AE6000F22E9 /* extensionInstallTutorialVideo.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 565FF24C1BE28AE6000F22E9 /* extensionInstallTutorialVideo.m4v */; };
+		56600AC21BE36E7C00117695 /* WSCoachMarksView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56600AC11BE36E7C00117695 /* WSCoachMarksView.m */; };
+		566336651B8C55F700FE1605 /* LITImageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 566336641B8C55F700FE1605 /* LITImageUtils.m */; };
+		566E16481B9DD69C009CFAC0 /* LITKeyboardCellPlayerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 566E16471B9DD69C009CFAC0 /* LITKeyboardCellPlayerHelper.m */; };
+		5681512F1B8DD07200AA3178 /* LITProgressHud.m in Sources */ = {isa = PBXBuildFile; fileRef = 5681512E1B8DD07200AA3178 /* LITProgressHud.m */; };
+		5683B1531B907C8700F50938 /* LITReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5683B1521B907C8700F50938 /* LITReportViewController.m */; };
+		568517601B95BAB100A8DC03 /* UIViewController+KeyboardAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5685175F1B95BAB100A8DC03 /* UIViewController+KeyboardAnimator.m */; };
+		5686CFC41B87333A004E0CDD /* LITCongratsKeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5686CFC21B87333A004E0CDD /* LITCongratsKeyboardViewController.m */; };
+		569483541BA85FEA0071EE11 /* LITKeyboardActionSheetHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 569483531BA85FEA0071EE11 /* LITKeyboardActionSheetHeader.xib */; };
+		56971D541B85BF9600BE2299 /* LITGestureRecognizerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56971D531B85BF9600BE2299 /* LITGestureRecognizerView.m */; };
+		56972B381B8386DF0083BF91 /* LITBlockFAQ.m in Sources */ = {isa = PBXBuildFile; fileRef = 56972B371B8386DF0083BF91 /* LITBlockFAQ.m */; };
+		569B674F1B99F3AD00AD9939 /* LITOptionsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 569B674E1B99F3AD00AD9939 /* LITOptionsTableViewCell.xib */; };
+		569B67521B99F88500AD9939 /* UICollectionView+OptionsPresenting.m in Sources */ = {isa = PBXBuildFile; fileRef = 569B67511B99F88500AD9939 /* UICollectionView+OptionsPresenting.m */; };
+		569D279D1BE0DB8E00BD8522 /* LITTaggingTutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 569D279C1BE0DB8E00BD8522 /* LITTaggingTutorialViewController.m */; };
+		569F68831B997F4A00505FD7 /* LITSoundbitePreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 569F68821B997F4A00505FD7 /* LITSoundbitePreviewViewController.m */; };
+		56AAE5DF1BB156ED00BD26B7 /* LITEmojiSearchCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AAE5DE1BB156ED00BD26B7 /* LITEmojiSearchCollectionViewController.m */; };
+		56B00B451B90A5A3008C0B2F /* LITFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B00B441B90A5A3008C0B2F /* LITFeedbackViewController.m */; };
+		56B1822D1BA8298B00AECA64 /* LITActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B1822C1BA8298B00AECA64 /* LITActionSheet.m */; };
+		56B182331BA83E7300AECA64 /* LITKeyboardActionSheetHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B182321BA83E7300AECA64 /* LITKeyboardActionSheetHeader.m */; };
+		56B284731BE272E500E32970 /* LITTutorialThirdNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B284721BE272E500E32970 /* LITTutorialThirdNextViewController.m */; };
+		56B682191BFA349B00A879EC /* LITTaggingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B682181BFA349B00A879EC /* LITTaggingViewController.m */; };
+		56B729B21BA3373C001C8830 /* LITShareHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B729B11BA3373C001C8830 /* LITShareHelper.m */; };
+		56BA20941BB92D820002EA5C /* UIImage+emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BA20931BB92D820002EA5C /* UIImage+emoji.m */; };
+		56C507EE1B9DF6DF002B8AF6 /* UICollectionView+OptionsPresenting.m in Sources */ = {isa = PBXBuildFile; fileRef = 569B67511B99F88500AD9939 /* UICollectionView+OptionsPresenting.m */; };
+		56C507EF1B9DF6F5002B8AF6 /* LITKeyboardCellPlayerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 566E16471B9DD69C009CFAC0 /* LITKeyboardCellPlayerHelper.m */; };
+		56C507F01B9DF87A002B8AF6 /* AVUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28DCFA1B56C7B300DFDA37 /* AVUtils.m */; };
+		56EE9EF11B7E4DF200CDAA94 /* LITProfileHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EE9EF01B7E4DF200CDAA94 /* LITProfileHeader.m */; };
+		56EE9EF31B7E4E0500CDAA94 /* LITProfileHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56EE9EF21B7E4E0500CDAA94 /* LITProfileHeader.xib */; };
+		56EE9EF61B7E52FC00CDAA94 /* LITSettingsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EE9EF51B7E52FC00CDAA94 /* LITSettingsTableViewCell.m */; };
+		56F3C35A1BC67A2700B1DD6B /* LITFaqTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F3C3581BC67A2700B1DD6B /* LITFaqTableViewCell.m */; };
+		56F416C11BCFA71700F225DA /* LITTermsOfServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F416C01BCFA71700F225DA /* LITTermsOfServiceViewController.m */; };
+		750477C88000C023EE6AE554 /* libPods-lit-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9467A26503437C990C1A8EF6 /* libPods-lit-ios.a */; };
+		84364E2F1C8B13C70005E9AE /* DataKeeper.m in Sources */ = {isa = PBXBuildFile; fileRef = 84364E2E1C8B13C70005E9AE /* DataKeeper.m */; };
+		84364E301C8B262C0005E9AE /* DataKeeper.m in Sources */ = {isa = PBXBuildFile; fileRef = 84364E2E1C8B13C70005E9AE /* DataKeeper.m */; };
+		848D65CF1CC28472000CAFC1 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848D65CE1CC28472000CAFC1 /* SearchViewController.m */; };
+		84B94C021C9EFBE500211050 /* LITEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B94C011C9EFBE500211050 /* LITEmoji.m */; };
+		84B94C061C9EFD9100211050 /* LITKBEmojiCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B94C041C9EFD9100211050 /* LITKBEmojiCollectionViewCell.m */; };
+		84B94C071C9EFD9100211050 /* LITKBEmojiCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B94C051C9EFD9100211050 /* LITKBEmojiCollectionViewCell.xib */; };
+		84B94C081CA1CC9300211050 /* LITEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B94C011C9EFBE500211050 /* LITEmoji.m */; };
+		84B94C091CA1F31300211050 /* LITKBEmojiCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B94C051C9EFD9100211050 /* LITKBEmojiCollectionViewCell.xib */; };
+		84B94C0A1CA1F37000211050 /* LITKBEmojiCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B94C041C9EFD9100211050 /* LITKBEmojiCollectionViewCell.m */; };
+		84B94C151CA2814000211050 /* LITKeyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD1DC0F1B7B8DE400BC0468 /* LITKeyboard.storyboard */; };
+		CA2BFDE89CF26AA78AB707AF /* libPods-LITKeyboard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A4C3BCB2067FDC947D2ED0E /* libPods-LITKeyboard.a */; };
+		CE3032441CBA06C000AC2838 /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3032431CBA06C000AC2838 /* KeyboardViewController.m */; };
+		CE3032581CBA2E6B00AC2838 /* AKTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3032491CBA2E6B00AC2838 /* AKTagCell.m */; };
+		CE30325A1CBA2E6B00AC2838 /* AKTagsListView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE30324E1CBA2E6B00AC2838 /* AKTagsListView.m */; };
+		CE30325B1CBA2E6B00AC2838 /* AKTagsLookup.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3032501CBA2E6B00AC2838 /* AKTagsLookup.m */; };
+		CE30325E1CBA2E6B00AC2838 /* NSString+StringSizeWithFont.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3032571CBA2E6B00AC2838 /* NSString+StringSizeWithFont.m */; };
+		CE3032601CBA302B00AC2838 /* LITKeyboardsBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE30325F1CBA302B00AC2838 /* LITKeyboardsBaseViewController.m */; };
+		CEA249A21CBCF97900611A26 /* KeyboardAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA249A11CBCF97900611A26 /* KeyboardAssets.xcassets */; };
+		CEA249A81CBCFC1A00611A26 /* LITKBLetter.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA249A51CBCFC1A00611A26 /* LITKBLetter.m */; };
+		CEA249A91CBCFC1A00611A26 /* LITKBSymbol.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA249A71CBCFC1A00611A26 /* LITKBSymbol.m */; };
+		CEEDB39E1CC48B4200F26F31 /* SF-UI-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = CEEDB3891CC48B4200F26F31 /* SF-UI-Text-Regular.otf */; };
+		CEF99FDA1CBB72080033BE28 /* Keyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF99FD91CBB72080033BE28 /* Keyboard.storyboard */; };
+		EA01A42A1B612BA500ABD780 /* LITTopSongsSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA01A4291B612BA500ABD780 /* LITTopSongsSelectionViewController.m */; };
+		EA01A42D1B612EF900ABD780 /* LITLyricCreationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA01A42C1B612EF900ABD780 /* LITLyricCreationViewController.m */; };
+		EA143AA31B832A790085F2A6 /* LITAddToKeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA143AA21B832A790085F2A6 /* LITAddToKeyboardViewController.m */; };
+		EA143AA61B8331180085F2A6 /* LITAddToKeyboardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA143AA51B8331180085F2A6 /* LITAddToKeyboardTableViewCell.m */; };
+		EA18F2931B84C4DD00FD2DB6 /* LITSimpleSoundbiteTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA18F2921B84C4DD00FD2DB6 /* LITSimpleSoundbiteTableViewCell.m */; };
+		EA18F2951B84C4F200FD2DB6 /* LITSimpleSoundbiteTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA18F2941B84C4F200FD2DB6 /* LITSimpleSoundbiteTableViewCell.xib */; };
+		EA18F2981B84CA5500FD2DB6 /* LITBaseSoundbiteTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA18F2971B84CA5500FD2DB6 /* LITBaseSoundbiteTableViewCell.m */; };
+		EA1A18851B70F4D00041545D /* LITGradientNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1A18841B70F4D00041545D /* LITGradientNavigationBar.m */; };
+		EA1A18881B7107320041545D /* UIViewController+ProfileUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1A18871B7107320041545D /* UIViewController+ProfileUpdater.m */; };
+		EA1BA71A1BC51313003C64AB /* thirdTutorialVideo.m4v in Resources */ = {isa = PBXBuildFile; fileRef = EA1BA7191BC51312003C64AB /* thirdTutorialVideo.m4v */; };
+		EA1BA71C1BC5131C003C64AB /* firstTutorialVideo.m4v in Resources */ = {isa = PBXBuildFile; fileRef = EA1BA71B1BC5131C003C64AB /* firstTutorialVideo.m4v */; };
+		EA1BA71F1BC5139A003C64AB /* LITTutorialThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1BA71E1BC5139A003C64AB /* LITTutorialThirdViewController.m */; };
+		EA1BA7221BC513AA003C64AB /* LITTutorialFifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1BA7211BC513AA003C64AB /* LITTutorialFifthViewController.m */; };
+		EA1BA7251BC51850003C64AB /* LITTutorialSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1BA7241BC51850003C64AB /* LITTutorialSecondViewController.m */; };
+		EA1BA7281BC51865003C64AB /* LITTutorialFourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1BA7271BC51865003C64AB /* LITTutorialFourthViewController.m */; };
+		EA210BA41BA07C4F00FB1B3F /* LITCustomPushAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = EA210BA31BA07C4F00FB1B3F /* LITCustomPushAnimator.m */; };
+		EA23059E1B4AE85E00B8A30A /* LITMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA23059D1B4AE85E00B8A30A /* LITMainViewController.m */; };
+		EA2305A21B4AE89800B8A30A /* LITInitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2305A11B4AE89800B8A30A /* LITInitialViewController.m */; };
+		EA233AD71BC28E4F006D2676 /* LITKeyboardTutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA233AD61BC28E4F006D2676 /* LITKeyboardTutorialViewController.m */; };
+		EA2471E91B4D3C5000507CEF /* LITLyricsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2471E81B4D3C5000507CEF /* LITLyricsViewController.m */; };
+		EA2471EC1B4DA8B000507CEF /* LITDubsPickSoundbiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2471EB1B4DA8B000507CEF /* LITDubsPickSoundbiteViewController.m */; };
+		EA2471EE1B4DAAF600507CEF /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA2471ED1B4DAAF600507CEF /* MediaPlayer.framework */; };
+		EA2471F41B4E66D300507CEF /* LITUserProfileTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2471F31B4E66D300507CEF /* LITUserProfileTableViewCell.m */; };
+		EA2471F71B4E692800507CEF /* LITProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2471F61B4E692800507CEF /* LITProfileViewController.m */; };
+		EA2471FA1B4E693600507CEF /* LITSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2471F91B4E693600507CEF /* LITSettingsViewController.m */; };
+		EA2471FD1B4E6E6A00507CEF /* LITAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2471FC1B4E6E6A00507CEF /* LITAboutViewController.m */; };
+		EA2472001B4E6E8100507CEF /* LITFAQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2471FF1B4E6E8100507CEF /* LITFAQViewController.m */; };
+		EA2673621BFDE6AD00C564F5 /* LITAddContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2673611BFDE6AD00C564F5 /* LITAddContentViewController.m */; };
+		EA28DCFB1B56C7B300DFDA37 /* AVUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28DCFA1B56C7B300DFDA37 /* AVUtils.m */; };
+		EA2BCCB91B95A4EB00FC46E5 /* LITSoundbitePlayerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2BCCB81B95A4EB00FC46E5 /* LITSoundbitePlayerHelper.m */; };
+		EA2BCCBF1B95BF1A00FC46E5 /* LITTableSearchHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2BCCBE1B95BF1A00FC46E5 /* LITTableSearchHelper.m */; };
+		EA2D0F801B85CED800D3368F /* LITDubsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2D0F7F1B85CED800D3368F /* LITDubsViewController.m */; };
+		EA2F37D51B68DE4100835E66 /* LITHistogramControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2F37D41B68DE4100835E66 /* LITHistogramControlView.m */; };
+		EA2FC5861B568C880086278F /* LITDubCreationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2FC5851B568C880086278F /* LITDubCreationViewController.m */; };
+		EA30BE7C1BA2E2A70028BDDD /* LITKeyboardInstallerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EA30BE7B1BA2E2A70028BDDD /* LITKeyboardInstallerHelper.m */; };
+		EA335E051BC58C4B00E40001 /* secondTutorialVideo.m4v in Resources */ = {isa = PBXBuildFile; fileRef = EA335E041BC58C4B00E40001 /* secondTutorialVideo.m4v */; };
+		EA37E6331BBEE192001D93C6 /* LITCollectionViewDecorationLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EA37E6321BBEE192001D93C6 /* LITCollectionViewDecorationLayout.m */; };
+		EA3833A81B48239400B0AED3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3833A71B48239400B0AED3 /* main.m */; };
+		EA3833AB1B48239400B0AED3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3833AA1B48239400B0AED3 /* AppDelegate.m */; };
+		EA3833B11B48239400B0AED3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA3833AF1B48239400B0AED3 /* Main.storyboard */; };
+		EA3833B31B48239400B0AED3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA3833B21B48239400B0AED3 /* Images.xcassets */; };
+		EA3833B61B48239400B0AED3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA3833B41B48239400B0AED3 /* LaunchScreen.xib */; };
+		EA3A494B1B6B63190091CF7E /* LITHandleView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3A494A1B6B63190091CF7E /* LITHandleView.m */; };
+		EA3BE6A11B7CAB6A00A1110B /* UIView+GradientBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8F5FD51B78F21A006C48F2 /* UIView+GradientBackground.m */; };
+		EA3BE6A61B7CB33800A1110B /* UIView+BlurEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3BE6A51B7CB33800A1110B /* UIView+BlurEffect.m */; };
+		EA3BE6A71B7CB43200A1110B /* UIView+BlurEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3BE6A51B7CB33800A1110B /* UIView+BlurEffect.m */; };
+		EA3BE6A81B7CB47300A1110B /* LITBlurEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5625761B74C6C400546DE0 /* LITBlurEffect.m */; };
+		EA3C029F1B81E4AA0010AD93 /* LITKBSoundbiteCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8A7E5B1B7BBD7200436461 /* LITKBSoundbiteCollectionViewCell.m */; };
+		EA3C02A01B81E4AE0010AD93 /* LITKBDubCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8A7E601B7BBD8500436461 /* LITKBDubCollectionViewCell.m */; };
+		EA3C02A11B81E4B10010AD93 /* LITKBLyricCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8A7E681B7BBDBC00436461 /* LITKBLyricCollectionViewCell.m */; };
+		EA3C02A41B81E77C0010AD93 /* UIViewController+LITKeyboardCellConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3C02A31B81E77C0010AD93 /* UIViewController+LITKeyboardCellConfigurator.m */; };
+		EA3C02A61B81EC4E0010AD93 /* LITKBSoundbiteCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA8A7E5C1B7BBD7200436461 /* LITKBSoundbiteCollectionViewCell.xib */; };
+		EA3C02A71B81EC510010AD93 /* LITKBDubCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA8A7E611B7BBD8500436461 /* LITKBDubCollectionViewCell.xib */; };
+		EA3C02A81B81EC530010AD93 /* LITKBLyricCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA8A7E691B7BBDBC00436461 /* LITKBLyricCollectionViewCell.xib */; };
+		EA3C02A91B81F3250010AD93 /* UIViewController+LITKeyboardCellConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3C02A31B81E77C0010AD93 /* UIViewController+LITKeyboardCellConfigurator.m */; };
+		EA4310611B4C358700B122A6 /* LITReplaceInitialControllerSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4310601B4C358700B122A6 /* LITReplaceInitialControllerSegue.m */; };
+		EA4310671B4C59CA00B122A6 /* LITSoundbitesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4310661B4C59CA00B122A6 /* LITSoundbitesViewController.m */; };
+		EA43106A1B4C5B3700B122A6 /* LITSoundbiteTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4310691B4C5B3700B122A6 /* LITSoundbiteTableViewCell.m */; };
+		EA5625701B74B40400546DE0 /* LITKeyboardCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA56256F1B74B40400546DE0 /* LITKeyboardCustomView.m */; };
+		EA5625731B74B41800546DE0 /* LITKeyboardBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5625721B74B41800546DE0 /* LITKeyboardBar.m */; };
+		EA5625771B74C6C400546DE0 /* LITBlurEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5625761B74C6C400546DE0 /* LITBlurEffect.m */; };
+		EA56257B1B74C82C00546DE0 /* UIViewController+CaptionInput.m in Sources */ = {isa = PBXBuildFile; fileRef = EA56257A1B74C82C00546DE0 /* UIViewController+CaptionInput.m */; };
+		EA5684831B5CF63800D026F6 /* LITTagCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5684821B5CF63800D026F6 /* LITTagCollectionViewCell.m */; };
+		EA56848B1B5D484800D026F6 /* LITSoundbite.m in Sources */ = {isa = PBXBuildFile; fileRef = EA56848A1B5D484800D026F6 /* LITSoundbite.m */; };
+		EA5C4B4D1BFB20CA00F52BA4 /* LITSong.m in Sources */ = {isa = PBXBuildFile; fileRef = EA01A4261B6100EF00ABD780 /* LITSong.m */; };
+		EA6790E11BA6DA9200B1849E /* LITSharedFileCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6790E01BA6DA9200B1849E /* LITSharedFileCache.m */; };
+		EA6790E21BA6EEE900B1849E /* LITSharedFileCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6790E01BA6DA9200B1849E /* LITSharedFileCache.m */; };
+		EA6B241A1B5E4DCE0019D342 /* LITDub.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6B24191B5E4DCE0019D342 /* LITDub.m */; };
+		EA71F0A61BAAC6C90016BC1C /* BridgeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA71F0A01BAAC6C90016BC1C /* BridgeLayer.swift */; };
+		EA71F0A71BAAC6C90016BC1C /* Cross.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA71F0A11BAAC6C90016BC1C /* Cross.swift */; };
+		EA71F0A81BAAC6C90016BC1C /* GooeyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA71F0A21BAAC6C90016BC1C /* GooeyItem.swift */; };
+		EA71F0A91BAAC6C90016BC1C /* GooeyLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA71F0A31BAAC6C90016BC1C /* GooeyLayer.swift */; };
+		EA71F0AA1BAAC6C90016BC1C /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA71F0A41BAAC6C90016BC1C /* SpringAnimation.swift */; };
+		EA71F0AB1BAAC6C90016BC1C /* Vectors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA71F0A51BAAC6C90016BC1C /* Vectors.swift */; };
+		EA71F0AD1BAAC6D10016BC1C /* Gooey.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA71F0AC1BAAC6D10016BC1C /* Gooey.swift */; };
+		EA77692A1B7B8BC2005D9395 /* LITKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EA7769211B7B8BC1005D9395 /* LITKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EA7C34CB1B6FC5B6002295C5 /* LITHistogramView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7C34CA1B6FC5B6002295C5 /* LITHistogramView.m */; };
+		EA7D22B41B662A8A006BC50E /* LITKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7D22B31B662A8A006BC50E /* LITKeyboard.m */; };
+		EA7D22B71B663931006BC50E /* LITLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7D22B61B663931006BC50E /* LITLoadingView.m */; };
+		EA7D22BA1B6639FA006BC50E /* LITRect.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7D22B91B6639FA006BC50E /* LITRect.m */; };
+		EA7D22BD1B66465E006BC50E /* LITSoundbiteTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA7D22BC1B66465E006BC50E /* LITSoundbiteTableViewCell.xib */; };
+		EA7D22BF1B664670006BC50E /* LITKeyboardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA7D22BE1B664670006BC50E /* LITKeyboardTableViewCell.xib */; };
+		EA7D22C11B664683006BC50E /* LITLyricsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA7D22C01B664683006BC50E /* LITLyricsTableViewCell.xib */; };
+		EA8078201B56964800B42639 /* LITDubPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA80781F1B56964800B42639 /* LITDubPreviewViewController.m */; };
+		EA8081DB1BBD3BD800ABE52A /* LITKeyboardFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8081D91BBD3BD800ABE52A /* LITKeyboardFooterView.m */; };
+		EA8081DC1BBD3BD800ABE52A /* LITKeyboardFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA8081DA1BBD3BD800ABE52A /* LITKeyboardFooterView.xib */; };
+		EA8081E01BBD3E5F00ABE52A /* LITKeyboardHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8081DE1BBD3E5F00ABE52A /* LITKeyboardHeaderView.m */; };
+		EA8081E11BBD3E5F00ABE52A /* LITKeyboardHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA8081DF1BBD3E5F00ABE52A /* LITKeyboardHeaderView.xib */; };
+		EA86E8EF1B85F14200DDBBCA /* LITKeyboardFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA86E8ED1B85F14200DDBBCA /* LITKeyboardFeedViewController.m */; };
+		EA86E8F31B85F37C00DDBBCA /* LITMainFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA86E8F21B85F37C00DDBBCA /* LITMainFeedViewController.m */; };
+		EA871BE91BC438C40095AF0E /* LITTutorialFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA871BE81BC438C40095AF0E /* LITTutorialFirstViewController.m */; };
+		EA8A7E581B7BBD3300436461 /* LITKeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8A7E571B7BBD3300436461 /* LITKeyboardViewController.m */; };
+		EA8A7E5D1B7BBD7200436461 /* LITKBSoundbiteCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8A7E5B1B7BBD7200436461 /* LITKBSoundbiteCollectionViewCell.m */; };
+		EA8A7E5E1B7BBD7200436461 /* LITKBSoundbiteCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA8A7E5C1B7BBD7200436461 /* LITKBSoundbiteCollectionViewCell.xib */; };
+		EA8A7E621B7BBD8500436461 /* LITKBDubCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8A7E601B7BBD8500436461 /* LITKBDubCollectionViewCell.m */; };
+		EA8A7E631B7BBD8500436461 /* LITKBDubCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA8A7E611B7BBD8500436461 /* LITKBDubCollectionViewCell.xib */; };
+		EA8A7E6A1B7BBDBC00436461 /* LITKBLyricCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8A7E681B7BBDBC00436461 /* LITKBLyricCollectionViewCell.m */; };
+		EA8A7E6B1B7BBDBC00436461 /* LITKBLyricCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA8A7E691B7BBDBC00436461 /* LITKBLyricCollectionViewCell.xib */; };
+		EA8A7E6C1B7BBF9800436461 /* LITKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7D22B31B662A8A006BC50E /* LITKeyboard.m */; };
+		EA8A7E6D1B7BC61000436461 /* LITSoundbite.m in Sources */ = {isa = PBXBuildFile; fileRef = EA56848A1B5D484800D026F6 /* LITSoundbite.m */; };
+		EA8A7E6E1B7BC61400436461 /* LITDub.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6B24191B5E4DCE0019D342 /* LITDub.m */; };
+		EA8A7E6F1B7BC61600436461 /* LITLyric.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFA83F61B5F85A600843FB2 /* LITLyric.m */; };
+		EA8A7E711B7C867900436461 /* LITAdjustableLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD82DA31B7A4BD3009BC71B /* LITAdjustableLabel.m */; };
+		EA8A7E721B7C9DA600436461 /* LITTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAED5151B70D20900088FD1 /* LITTheme.m */; };
+		EA8E577A1B8732D3008820C9 /* LITBaseKeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8E57791B8732D3008820C9 /* LITBaseKeyboardViewController.m */; };
+		EA8E57831B8740FE008820C9 /* LITProfileKeyboardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8E57821B8740FE008820C9 /* LITProfileKeyboardsViewController.m */; };
+		EA8E57861B8B2ED1008820C9 /* LITProfileFavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8E57851B8B2ED1008820C9 /* LITProfileFavoritesViewController.m */; };
+		EA8E57891B8B79E8008820C9 /* LITFavoritesKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8E57881B8B79E8008820C9 /* LITFavoritesKeyboard.m */; };
+		EA8E578A1B8B7D17008820C9 /* LITFavoritesKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8E57881B8B79E8008820C9 /* LITFavoritesKeyboard.m */; };
+		EA8F5FD61B78F21A006C48F2 /* UIView+GradientBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8F5FD51B78F21A006C48F2 /* UIView+GradientBackground.m */; };
+		EA8F5FD81B7A1371006C48F2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA8F5FD71B7A1371006C48F2 /* Default-568h@2x.png */; };
+		EA9479C91BB5CF4300E3B0FC /* LITKBEmptyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA95F8A61BB5BBE000D52A0C /* LITKBEmptyCollectionViewCell.xib */; };
+		EA9479CB1BB5CF4C00E3B0FC /* LITKBEmptyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA95F8A51BB5BBE000D52A0C /* LITKBEmptyCollectionViewCell.m */; };
+		EA95F8A71BB5BBE000D52A0C /* LITKBEmptyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA95F8A51BB5BBE000D52A0C /* LITKBEmptyCollectionViewCell.m */; };
+		EA95F8A81BB5BBE000D52A0C /* LITKBEmptyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA95F8A61BB5BBE000D52A0C /* LITKBEmptyCollectionViewCell.xib */; };
+		EAA0A3FA1B8CC0C6009FDDD9 /* LITSongTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA0A3F91B8CC0C6009FDDD9 /* LITSongTableViewCell.m */; };
+		EAA0A3FD1B8CCEC2009FDDD9 /* LITSimpleLyricsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA0A3FC1B8CCEC2009FDDD9 /* LITSimpleLyricsTableViewCell.m */; };
+		EAAED5161B70D20900088FD1 /* LITTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAED5151B70D20900088FD1 /* LITTheme.m */; };
+		EAB3B93E1B67CF870000F7D4 /* LITDubTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB3B93D1B67CF870000F7D4 /* LITDubTableViewCell.m */; };
+		EAB3B9401B67CFC20000F7D4 /* LITDubTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAB3B93F1B67CFC20000F7D4 /* LITDubTableViewCell.xib */; };
+		EAC48BE01B789BF40072B48F /* LITEmojiUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC48BDF1B789BF40072B48F /* LITEmojiUtils.m */; };
+		EACC84211BD5030D00A58116 /* AKStencilButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EACC84201BD5030D00A58116 /* AKStencilButton.m */; };
+		EACC97DB1BC6C12F00738164 /* pop.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EACC97DA1BC6C12F00738164 /* pop.aiff */; };
+		EACDC3AA1B4ECB84009347A2 /* LITLyricsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EACDC3A91B4ECB84009347A2 /* LITLyricsTableViewCell.m */; };
+		EACF21141B96E55400294804 /* LITContentQueryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EACF21131B96E55400294804 /* LITContentQueryTableViewController.m */; };
+		EACF21171B9710F200294804 /* LITSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EACF21161B9710F200294804 /* LITSearchBar.m */; };
+		EACF211A1B97113A00294804 /* LITSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = EACF21191B97113A00294804 /* LITSearchController.m */; };
+		EAD1DC101B7B8DE400BC0468 /* LITKeyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD1DC0F1B7B8DE400BC0468 /* LITKeyboard.storyboard */; };
+		EAD3D5D41BC3E9FB003AFB54 /* Tutorial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD3D5D31BC3E9FB003AFB54 /* Tutorial.storyboard */; };
+		EAD82DA41B7A4BD3009BC71B /* LITAdjustableLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD82DA31B7A4BD3009BC71B /* LITAdjustableLabel.m */; };
+		EAD9D7181BB59F5200367AF5 /* SharkfoodMuteSwitchDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFE96FF1BB0143C00C31520 /* SharkfoodMuteSwitchDetector.m */; };
+		EAD9D7191BB5A12F00367AF5 /* mute.caf in Resources */ = {isa = PBXBuildFile; fileRef = EAFE97021BB01A8700C31520 /* mute.caf */; };
+		EAE3365A1B57F0E00038E463 /* LITSoundbiteRecordSoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE336591B57F0E00038E463 /* LITSoundbiteRecordSoundViewController.m */; };
+		EAE3365E1B5806FE0038E463 /* LITTouchDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE3365C1B5806FE0038E463 /* LITTouchDetector.m */; };
+		EAE339121BBD7AF400F66633 /* LITKeyboardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2471F01B4E667900507CEF /* LITKeyboardTableViewCell.m */; };
+		EAE339131BBD7AF400F66633 /* LITKeyboardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2471F01B4E667900507CEF /* LITKeyboardTableViewCell.m */; };
+		EAE921BE1B9D8EA90094416B /* LITProfileContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE921BD1B9D8EA90094416B /* LITProfileContentViewController.m */; };
+		EAF5C0DB1B4FCF5B00A89BEC /* LITSoundbiteCropSongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF5C0DA1B4FCF5B00A89BEC /* LITSoundbiteCropSongViewController.m */; };
+		EAF5C0EA1B50170500A89BEC /* LITLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF5C0E91B50170500A89BEC /* LITLoginViewController.m */; };
+		EAF5C0EC1B5024A700A89BEC /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF5C0EB1B5024A700A89BEC /* Accounts.framework */; };
+		EAF5C0EE1B5024AB00A89BEC /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF5C0ED1B5024AB00A89BEC /* Social.framework */; };
+		EAFA83F71B5F85A600843FB2 /* LITLyric.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFA83F61B5F85A600843FB2 /* LITLyric.m */; };
+		EAFE97011BB0143C00C31520 /* SharkfoodMuteSwitchDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFE96FF1BB0143C00C31520 /* SharkfoodMuteSwitchDetector.m */; };
+		EAFE97031BB01A8700C31520 /* mute.caf in Resources */ = {isa = PBXBuildFile; fileRef = EAFE97021BB01A8700C31520 /* mute.caf */; };
+		EAFF66D71BCE779F009F7731 /* Tutorial-iPhone4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAFF66D61BCE779F009F7731 /* Tutorial-iPhone4.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA7769281B7B8BC2005D9395 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA38339A1B48239400B0AED3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA7769201B7B8BC1005D9395;
+			remoteInfo = LITKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EA77692E1B7B8BC2005D9395 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EA77692A1B7B8BC2005D9395 /* LITKeyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		56064A6B1B96EAD7001950B4 /* LITKBBaseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITKBBaseCollectionViewCell.h; sourceTree = "<group>"; };
+		56064A6C1B96EAD7001950B4 /* LITKBBaseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITKBBaseCollectionViewCell.m; sourceTree = "<group>"; };
+		56094B5E1BE372EA005BC04B /* LITGlobals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LITGlobals.h; sourceTree = "<group>"; };
+		560ADDD81BCD245A0001C023 /* MixpanelGlobals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixpanelGlobals.h; sourceTree = "<group>"; };
+		56150EE51BFA52AF00653A70 /* LITTaggingCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITTaggingCollectionViewController.h; sourceTree = "<group>"; };
+		56150EE61BFA52AF00653A70 /* LITTaggingCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITTaggingCollectionViewController.m; sourceTree = "<group>"; };
+		561D05A41BB56A48003CB627 /* LITKeyboardNoAccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITKeyboardNoAccessViewController.h; sourceTree = "<group>"; };
+		561D05A51BB56A48003CB627 /* LITKeyboardNoAccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITKeyboardNoAccessViewController.m; sourceTree = "<group>"; };
+		563652A51BA17F93008B994F /* LITCropperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITCropperViewController.h; sourceTree = "<group>"; };
+		563652A61BA17F93008B994F /* LITCropperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITCropperViewController.m; sourceTree = "<group>"; };
+		56431BF81C031FE500486AD2 /* PrivacyPolicy.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = PrivacyPolicy.pdf; sourceTree = "<group>"; };
+		56431BF91C031FE500486AD2 /* TermsOfUse.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TermsOfUse.pdf; sourceTree = "<group>"; };
+		565091381BCD055E005E4A1A /* CUSSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUSSender.h; sourceTree = "<group>"; };
+		565091391BCD055E005E4A1A /* CUSSenderFallLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUSSenderFallLayer.h; sourceTree = "<group>"; };
+		5650913A1BCD055E005E4A1A /* CUSSenderFallLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUSSenderFallLayer.m; sourceTree = "<group>"; };
+		5650913B1BCD055E005E4A1A /* CUSSenderLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUSSenderLayer.h; sourceTree = "<group>"; };
+		5650913C1BCD055E005E4A1A /* CUSSenderLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUSSenderLayer.m; sourceTree = "<group>"; };
+		5650913F1BCD0584005E4A1A /* CUSSenderFireLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUSSenderFireLayer.h; sourceTree = "<group>"; };
+		565091401BCD0584005E4A1A /* CUSSenderFireLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUSSenderFireLayer.m; sourceTree = "<group>"; };
+		565F5FED1BA9B93F00E50A76 /* LITNoInternetConnectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITNoInternetConnectionViewController.h; sourceTree = "<group>"; };
+		565F5FEE1BA9B93F00E50A76 /* LITNoInternetConnectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITNoInternetConnectionViewController.m; sourceTree = "<group>"; };
+		565FF24C1BE28AE6000F22E9 /* extensionInstallTutorialVideo.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = extensionInstallTutorialVideo.m4v; sourceTree = "<group>"; };
+		56600AC01BE36E7C00117695 /* WSCoachMarksView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSCoachMarksView.h; sourceTree = "<group>"; };
+		56600AC11BE36E7C00117695 /* WSCoachMarksView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSCoachMarksView.m; sourceTree = "<group>"; };
+		566336631B8C55F700FE1605 /* LITImageUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITImageUtils.h; sourceTree = "<group>"; };
+		566336641B8C55F700FE1605 /* LITImageUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITImageUtils.m; sourceTree = "<group>"; };
+		566E16431B9DD5FA009CFAC0 /* LITKeyboardCellPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITKeyboardCellPreviewController.h; sourceTree = "<group>"; };
+		566E16461B9DD69C009CFAC0 /* LITKeyboardCellPlayerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITKeyboardCellPlayerHelper.h; sourceTree = "<group>"; };
+		566E16471B9DD69C009CFAC0 /* LITKeyboardCellPlayerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITKeyboardCellPlayerHelper.m; sourceTree = "<group>"; };
+		5681512D1B8DD07200AA3178 /* LITProgressHud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITProgressHud.h; sourceTree = "<group>"; };
+		5681512E1B8DD07200AA3178 /* LITProgressHud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITProgressHud.m; sourceTree = "<group>"; };
+		5683B1511B907C8700F50938 /* LITReportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITReportViewController.h; sourceTree = "<group>"; };
+		5683B1521B907C8700F50938 /* LITReportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITReportViewController.m; sourceTree = "<group>"; };
+		5685175E1B95BAB100A8DC03 /* UIViewController+KeyboardAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+KeyboardAnimator.h"; sourceTree = "<group>"; };
+		5685175F1B95BAB100A8DC03 /* UIViewController+KeyboardAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+KeyboardAnimator.m"; sourceTree = "<group>"; };
+		5686CFC11B87333A004E0CDD /* LITCongratsKeyboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITCongratsKeyboardViewController.h; sourceTree = "<group>"; };
+		5686CFC21B87333A004E0CDD /* LITCongratsKeyboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITCongratsKeyboardViewController.m; sourceTree = "<group>"; };
+		569483531BA85FEA0071EE11 /* LITKeyboardActionSheetHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LITKeyboardActionSheetHeader.xib; sourceTree = "<group>"; };
+		56971D521B85BF9600BE2299 /* LITGestureRecognizerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITGestureRecognizerView.h; sourceTree = "<group>"; };
+		56971D531B85BF9600BE2299 /* LITGestureRecognizerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITGestureRecognizerView.m; sourceTree = "<group>"; };
+		56972B361B8386DF0083BF91 /* LITBlockFAQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITBlockFAQ.h; sourceTree = "<group>"; };
+		56972B371B8386DF0083BF91 /* LITBlockFAQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITBlockFAQ.m; sourceTree = "<group>"; };
+		569797311B84E1F90016120F /* SwiftBridging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SwiftBridging.h; path = "lit-ios/SwiftBridging.h"; sourceTree = "<group>"; };
+		569B674E1B99F3AD00AD9939 /* LITOptionsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LITOptionsTableViewCell.xib; sourceTree = "<group>"; };
+		569B67501B99F88500AD9939 /* UICollectionView+OptionsPresenting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+OptionsPresenting.h"; sourceTree = "<group>"; };
+		569B67511B99F88500AD9939 /* UICollectionView+OptionsPresenting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+OptionsPresenting.m"; sourceTree = "<group>"; };
+		569D04901BA98D7000ACDF2C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		569D279B1BE0DB8E00BD8522 /* LITTaggingTutorialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITTaggingTutorialViewController.h; sourceTree = "<group>"; };
+		569D279C1BE0DB8E00BD8522 /* LITTaggingTutorialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITTaggingTutorialViewController.m; sourceTree = "<group>"; };
+		569F68811B997F4A00505FD7 /* LITSoundbitePreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITSoundbitePreviewViewController.h; sourceTree = "<group>"; };
+		569F68821B997F4A00505FD7 /* LITSoundbitePreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITSoundbitePreviewViewController.m; sourceTree = "<group>"; };
+		56AAE5DD1BB156ED00BD26B7 /* LITEmojiSearchCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITEmojiSearchCollectionViewController.h; sourceTree = "<group>"; };
+		56AAE5DE1BB156ED00BD26B7 /* LITEmojiSearchCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITEmojiSearchCollectionViewController.m; sourceTree = "<group>"; };
+		56B00B431B90A5A3008C0B2F /* LITFeedbackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITFeedbackViewController.h; sourceTree = "<group>"; };
+		56B00B441B90A5A3008C0B2F /* LITFeedbackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITFeedbackViewController.m; sourceTree = "<group>"; };
+		56B1822B1BA8298B00AECA64 /* LITActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITActionSheet.h; sourceTree = "<group>"; };
+		56B1822C1BA8298B00AECA64 /* LITActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITActionSheet.m; sourceTree = "<group>"; };
+		56B182311BA83E7300AECA64 /* LITKeyboardActionSheetHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITKeyboardActionSheetHeader.h; sourceTree = "<group>"; };
+		56B182321BA83E7300AECA64 /* LITKeyboardActionSheetHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITKeyboardActionSheetHeader.m; sourceTree = "<group>"; };
+		56B284711BE272E500E32970 /* LITTutorialThirdNextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITTutorialThirdNextViewController.h; sourceTree = "<group>"; };
+		56B284721BE272E500E32970 /* LITTutorialThirdNextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITTutorialThirdNextViewController.m; sourceTree = "<group>"; };
+		56B682171BFA349B00A879EC /* LITTaggingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITTaggingViewController.h; sourceTree = "<group>"; };
+		56B682181BFA349B00A879EC /* LITTaggingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITTaggingViewController.m; sourceTree = "<group>"; };
+		56B729B01BA3373C001C8830 /* LITShareHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITShareHelper.h; sourceTree = "<group>"; };
+		56B729B11BA3373C001C8830 /* LITShareHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITShareHelper.m; sourceTree = "<group>"; };
+		56BA20921BB92D820002EA5C /* UIImage+emoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+emoji.h"; sourceTree = "<group>"; };
+		56BA20931BB92D820002EA5C /* UIImage+emoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+emoji.m"; sourceTree = "<group>"; };
+		56EE9EEF1B7E4DF200CDAA94 /* LITProfileHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITProfileHeader.h; sourceTree = "<group>"; };
+		56EE9EF01B7E4DF200CDAA94 /* LITProfileHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITProfileHeader.m; sourceTree = "<group>"; };
+		56EE9EF21B7E4E0500CDAA94 /* LITProfileHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LITProfileHeader.xib; sourceTree = "<group>"; };
+		56EE9EF41B7E52FC00CDAA94 /* LITSettingsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITSettingsTableViewCell.h; sourceTree = "<group>"; };
+		56EE9EF51B7E52FC00CDAA94 /* LITSettingsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITSettingsTableViewCell.m; sourceTree = "<group>"; };
+		56F3C3571BC67A2700B1DD6B /* LITFaqTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITFaqTableViewCell.h; sourceTree = "<group>"; };
+		56F3C3581BC67A2700B1DD6B /* LITFaqTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITFaqTableViewCell.m; sourceTree = "<group>"; };
+		56F416BF1BCFA71700F225DA /* LITTermsOfServiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITTermsOfServiceViewController.h; sourceTree = "<group>"; };
+		56F416C01BCFA71700F225DA /* LITTermsOfServiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITTermsOfServiceViewController.m; sourceTree = "<group>"; };
+		7A4C3BCB2067FDC947D2ED0E /* libPods-LITKeyboard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LITKeyboard.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84364E2D1C8B13C70005E9AE /* DataKeeper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataKeeper.h; sourceTree = "<group>"; };
+		84364E2E1C8B13C70005E9AE /* DataKeeper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataKeeper.m; sourceTree = "<group>"; };
+		848D65CD1CC28472000CAFC1 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchViewController.h; path = SearchKeyboard/SearchViewController.h; sourceTree = "<group>"; };
+		848D65CE1CC28472000CAFC1 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchViewController.m; path = SearchKeyboard/SearchViewController.m; sourceTree = "<group>"; };
+		84B94C001C9EFBE500211050 /* LITEmoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITEmoji.h; sourceTree = "<group>"; };
+		84B94C011C9EFBE500211050 /* LITEmoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITEmoji.m; sourceTree = "<group>"; };
+		84B94C031C9EFD9100211050 /* LITKBEmojiCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITKBEmojiCollectionViewCell.h; sourceTree = "<group>"; };
+		84B94C041C9EFD9100211050 /* LITKBEmojiCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITKBEmojiCollectionViewCell.m; sourceTree = "<group>"; };
+		84B94C051C9EFD9100211050 /* LITKBEmojiCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LITKBEmojiCollectionViewCell.xib; sourceTree = "<group>"; };
+		9467A26503437C990C1A8EF6 /* libPods-lit-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lit-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C56683FFA9AD95CE58309316 /* Pods-LITKeyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LITKeyboard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LITKeyboard/Pods-LITKeyboard.debug.xcconfig"; sourceTree = "<group>"; };
+		CE3032411CBA063000AC2838 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Header.h; path = SearchKeyboard/Header.h; sourceTree = "<group>"; };
+		CE3032421CBA06C000AC2838 /* KeyboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KeyboardViewController.h; path = SearchKeyboard/KeyboardViewController.h; sourceTree = "<group>"; };
+		CE3032431CBA06C000AC2838 /* KeyboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KeyboardViewController.m; path = SearchKeyboard/KeyboardViewController.m; sourceTree = "<group>"; };
+		CE3032481CBA2E6B00AC2838 /* AKTagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AKTagCell.h; path = SearchKeyboard/SearchBar/AKTagCell.h; sourceTree = "<group>"; };
+		CE3032491CBA2E6B00AC2838 /* AKTagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AKTagCell.m; path = SearchKeyboard/SearchBar/AKTagCell.m; sourceTree = "<group>"; };
+		CE30324A1CBA2E6B00AC2838 /* AKTagsDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AKTagsDefines.h; path = SearchKeyboard/SearchBar/AKTagsDefines.h; sourceTree = "<group>"; };
+		CE30324D1CBA2E6B00AC2838 /* AKTagsListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AKTagsListView.h; path = SearchKeyboard/SearchBar/AKTagsListView.h; sourceTree = "<group>"; };
+		CE30324E1CBA2E6B00AC2838 /* AKTagsListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AKTagsListView.m; path = SearchKeyboard/SearchBar/AKTagsListView.m; sourceTree = "<group>"; };
+		CE30324F1CBA2E6B00AC2838 /* AKTagsLookup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AKTagsLookup.h; path = SearchKeyboard/SearchBar/AKTagsLookup.h; sourceTree = "<group>"; };
+		CE3032501CBA2E6B00AC2838 /* AKTagsLookup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AKTagsLookup.m; path = SearchKeyboard/SearchBar/AKTagsLookup.m; sourceTree = "<group>"; };
+		CE3032551CBA2E6B00AC2838 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = SearchKeyboard/SearchBar/Constants.h; sourceTree = "<group>"; };
+		CE3032561CBA2E6B00AC2838 /* NSString+StringSizeWithFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+StringSizeWithFont.h"; path = "SearchKeyboard/SearchBar/NSString+StringSizeWithFont.h"; sourceTree = "<group>"; };
+		CE3032571CBA2E6B00AC2838 /* NSString+StringSizeWithFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+StringSizeWithFont.m"; path = "SearchKeyboard/SearchBar/NSString+StringSizeWithFont.m"; sourceTree = "<group>"; };
+		CE30325F1CBA302B00AC2838 /* LITKeyboardsBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITKeyboardsBaseViewController.m; sourceTree = "<group>"; };
+		CEA249A11CBCF97900611A26 /* KeyboardAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = KeyboardAssets.xcassets; sourceTree = "<group>"; };
+		CEA249A41CBCFC1A00611A26 /* LITKBLetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITKBLetter.h; sourceTree = "<group>"; };
+		CEA249A51CBCFC1A00611A26 /* LITKBLetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITKBLetter.m; sourceTree = "<group>"; };
+		CEA249A61CBCFC1A00611A26 /* LITKBSymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITKBSymbol.h; sourceTree = "<group>"; };
+		CEA249A71CBCFC1A00611A26 /* LITKBSymbol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITKBSymbol.m; sourceTree = "<group>"; };
+		CEEDB3891CC48B4200F26F31 /* SF-UI-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-UI-Text-Regular.otf"; path = "SearchKeyboard/fonts/SF-UI-Text-Regular.otf"; sourceTree = "<group>"; };
+		CEF99FD91CBB72080033BE28 /* Keyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Keyboard.storyboard; path = SearchKeyboard/Keyboard.storyboard; sourceTree = "<group>"; };
+		EA01A4251B6100EF00ABD780 /* LITSong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITSong.h; sourceTree = "<group>"; };
+		EA01A4261B6100EF00ABD780 /* LITSong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITSong.m; sourceTree = "<group>"; };
+		EA01A4281B612BA500ABD780 /* LITTopSongsSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITTopSongsSelectionViewController.h; sourceTree = "<group>"; };
+		EA01A4291B612BA500ABD780 /* LITTopSongsSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITTopSongsSelectionViewController.m; sourceTree = "<group>"; };
+		EA01A42B1B612EF900ABD780 /* LITLyricCreationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITLyricCreationViewController.h; sourceTree = "<group>"; };
+		EA01A42C1B612EF900ABD780 /* LITLyricCreationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITLyricCreationViewController.m; sourceTree = "<group>"; };
+		EA143AA11B832A790085F2A6 /* LITAddToKeyboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITAddToKeyboardViewController.h; sourceTree = "<group>"; };
+		EA143AA21B832A790085F2A6 /* LITAddToKeyboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITAddToKeyboardViewController.m; sourceTree = "<group>"; };
+		EA143AA41B8331180085F2A6 /* LITAddToKeyboardTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITAddToKeyboardTableViewCell.h; sourceTree = "<group>"; };
+		EA143AA51B8331180085F2A6 /* LITAddToKeyboardTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITAddToKeyboardTableViewCell.m; sourceTree = "<group>"; };
+		EA18F2911B84C4DD00FD2DB6 /* LITSimpleSoundbiteTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITSimpleSoundbiteTableViewCell.h; sourceTree = "<group>"; };
+		EA18F2921B84C4DD00FD2DB6 /* LITSimpleSoundbiteTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITSimpleSoundbiteTableViewCell.m; sourceTree = "<group>"; };
+		EA18F2941B84C4F200FD2DB6 /* LITSimpleSoundbiteTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LITSimpleSoundbiteTableViewCell.xib; sourceTree = "<group>"; };
+		EA18F2961B84CA5500FD2DB6 /* LITBaseSoundbiteTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.c.h; path = LITBaseSoundbiteTableViewCell.h; sourceTree = "<group>"; tabWidth = 4; usesTabs = 0; wrapsLines = 1; };
+		EA18F2971B84CA5500FD2DB6 /* LITBaseSoundbiteTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.c.objc; path = LITBaseSoundbiteTableViewCell.m; sourceTree = "<group>"; tabWidth = 4; usesTabs = 0; wrapsLines = 1; };
+		EA1A18831B70F4D00041545D /* LITGradientNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITGradientNavigationBar.h; sourceTree = "<group>"; };
+		EA1A18841B70F4D00041545D /* LITGradientNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITGradientNavigationBar.m; sourceTree = "<group>"; };
+		EA1A18861B7107320041545D /* UIViewController+ProfileUpdater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ProfileUpdater.h"; sourceTree = "<group>"; };
+		EA1A18871B7107320041545D /* UIViewController+ProfileUpdater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ProfileUpdater.m"; sourceTree = "<group>"; };
+		EA1BA7191BC51312003C64AB /* thirdTutorialVideo.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = thirdTutorialVideo.m4v; sourceTree = "<group>"; };
+		EA1BA71B1BC5131C003C64AB /* firstTutorialVideo.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = firstTutorialVideo.m4v; sourceTree = "<group>"; };
+		EA1BA71D1BC5139A003C64AB /* LITTutorialThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITTutorialThirdViewController.h; sourceTree = "<group>"; };
+		EA1BA71E1BC5139A003C64AB /* LITTutorialThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITTutorialThirdViewController.m; sourceTree = "<group>"; };
+		EA1BA7201BC513AA003C64AB /* LITTutorialFifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITTutorialFifthViewController.h; sourceTree = "<group>"; };
+		EA1BA7211BC513AA003C64AB /* LITTutorialFifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITTutorialFifthViewController.m; sourceTree = "<group>"; };
+		EA1BA7231BC51850003C64AB /* LITTutorialSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITTutorialSecondViewController.h; sourceTree = "<group>"; };
+		EA1BA7241BC51850003C64AB /* LITTutorialSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITTutorialSecondViewController.m; sourceTree = "<group>"; };
+		EA1BA7261BC51865003C64AB /* LITTutorialFourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITTutorialFourthViewController.h; sourceTree = "<group>"; };
+		EA1BA7271BC51865003C64AB /* LITTutorialFourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITTutorialFourthViewController.m; sourceTree = "<group>"; };
+		EA210BA21BA07C4F00FB1B3F /* LITCustomPushAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITCustomPushAnimator.h; sourceTree = "<group>"; };
+		EA210BA31BA07C4F00FB1B3F /* LITCustomPushAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITCustomPushAnimator.m; sourceTree = "<group>"; };
+		EA23059C1B4AE85E00B8A30A /* LITMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITMainViewController.h; sourceTree = "<group>"; };
+		EA23059D1B4AE85E00B8A30A /* LITMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITMainViewController.m; sourceTree = "<group>"; };
+		EA2305A01B4AE89800B8A30A /* LITInitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITInitialViewController.h; sourceTree = "<group>"; };
+		EA2305A11B4AE89800B8A30A /* LITInitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITInitialViewController.m; sourceTree = "<group>"; };
+		EA233AD51BC28E4F006D2676 /* LITKeyboardTutorialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITKeyboardTutorialViewController.h; sourceTree = "<group>"; };
+		EA233AD61BC28E4F006D2676 /* LITKeyboardTutorialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITKeyboardTutorialViewController.m; sourceTree = "<group>"; };
+		EA2471E71B4D3C5000507CEF /* LITLyricsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITLyricsViewController.h; sourceTree = "<group>"; };
+		EA2471E81B4D3C5000507CEF /* LITLyricsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITLyricsViewController.m; sourceTree = "<group>"; };
+		EA2471EA1B4DA8B000507CEF /* LITDubsPickSoundbiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITDubsPickSoundbiteViewController.h; sourceTree = "<group>"; };
+		EA2471EB1B4DA8B000507CEF /* LITDubsPickSoundbiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITDubsPickSoundbiteViewController.m; sourceTree = "<group>"; };
+		EA2471ED1B4DAAF600507CEF /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		EA2471EF1B4E667900507CEF /* LITKeyboardTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITKeyboardTableViewCell.h; sourceTree = "<group>"; };
+		EA2471F01B4E667900507CEF /* LITKeyboardTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITKeyboardTableViewCell.m; sourceTree = "<group>"; };
+		EA2471F21B4E66D300507CEF /* LITUserProfileTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITUserProfileTableViewCell.h; sourceTree = "<group>"; };
+		EA2471F31B4E66D300507CEF /* LITUserProfileTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITUserProfileTableViewCell.m; sourceTree = "<group>"; };
+		EA2471F51B4E692800507CEF /* LITProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITProfileViewController.h; sourceTree = "<group>"; };
+		EA2471F61B4E692800507CEF /* LITProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITProfileViewController.m; sourceTree = "<group>"; };
+		EA2471F81B4E693600507CEF /* LITSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITSettingsViewController.h; sourceTree = "<group>"; };
+		EA2471F91B4E693600507CEF /* LITSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITSettingsViewController.m; sourceTree = "<group>"; };
+		EA2471FB1B4E6E6A00507CEF /* LITAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITAboutViewController.h; sourceTree = "<group>"; };
+		EA2471FC1B4E6E6A00507CEF /* LITAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITAboutViewController.m; sourceTree = "<group>"; };
+		EA2471FE1B4E6E8100507CEF /* LITFAQViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITFAQViewController.h; sourceTree = "<group>"; };
+		EA2471FF1B4E6E8100507CEF /* LITFAQViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITFAQViewController.m; sourceTree = "<group>"; };
+		EA2673601BFDE6AD00C564F5 /* LITAddContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITAddContentViewController.h; sourceTree = "<group>"; };
+		EA2673611BFDE6AD00C564F5 /* LITAddContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITAddContentViewController.m; sourceTree = "<group>"; };
+		EA28DCF91B56C7B300DFDA37 /* AVUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVUtils.h; sourceTree = "<group>"; };
+		EA28DCFA1B56C7B300DFDA37 /* AVUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVUtils.m; sourceTree = "<group>"; };
+		EA2BCCB71B95A4EB00FC46E5 /* LITSoundbitePlayerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITSoundbitePlayerHelper.h; sourceTree = "<group>"; };
+		EA2BCCB81B95A4EB00FC46E5 /* LITSoundbitePlayerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITSoundbitePlayerHelper.m; sourceTree = "<group>"; };
+		EA2BCCBD1B95BF1A00FC46E5 /* LITTableSearchHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITTableSearchHelper.h; sourceTree = "<group>"; };
+		EA2BCCBE1B95BF1A00FC46E5 /* LITTableSearchHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITTableSearchHelper.m; sourceTree = "<group>"; };
+		EA2D0F7E1B85CED800D3368F /* LITDubsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITDubsViewController.h; sourceTree = "<group>"; };
+		EA2D0F7F1B85CED800D3368F /* LITDubsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITDubsViewController.m; sourceTree = "<group>"; };
+		EA2F37D31B68DE4100835E66 /* LITHistogramControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITHistogramControlView.h; sourceTree = "<group>"; };
+		EA2F37D41B68DE4100835E66 /* LITHistogramControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITHistogramControlView.m; sourceTree = "<group>"; };
+		EA2FC5841B568C880086278F /* LITDubCreationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITDubCreationViewController.h; sourceTree = "<group>"; };
+		EA2FC5851B568C880086278F /* LITDubCreationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITDubCreationViewController.m; sourceTree = "<group>"; };
+		EA30BE7A1BA2E2A70028BDDD /* LITKeyboardInstallerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITKeyboardInstallerHelper.h; sourceTree = "<group>"; };
+		EA30BE7B1BA2E2A70028BDDD /* LITKeyboardInstallerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITKeyboardInstallerHelper.m; sourceTree = "<group>"; };
+		EA30C9E61B7B95C90048FC29 /* LITKeyboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = LITKeyboard.entitlements; sourceTree = "<group>"; };
+		EA30C9E71B7B95E20048FC29 /* lit-ios.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "lit-ios.entitlements"; sourceTree = "<group>"; };
+		EA30C9E81B7BA2330048FC29 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		EA335E041BC58C4B00E40001 /* secondTutorialVideo.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = secondTutorialVideo.m4v; sourceTree = "<group>"; };
+		EA37E6311BBEE192001D93C6 /* LITCollectionViewDecorationLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITCollectionViewDecorationLayout.h; sourceTree = "<group>"; };
+		EA37E6321BBEE192001D93C6 /* LITCollectionViewDecorationLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITCollectionViewDecorationLayout.m; sourceTree = "<group>"; };
+		EA3833A21B48239400B0AED3 /* lit-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lit-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA3833A61B48239400B0AED3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA3833A71B48239400B0AED3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA3833A91B48239400B0AED3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA3833AA1B48239400B0AED3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA3833B01B48239400B0AED3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA3833B21B48239400B0AED3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA3833B51B48239400B0AED3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EA3833C01B48239400B0AED3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA3833C11B48239400B0AED3 /* lit_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lit_iosTests.m; sourceTree = "<group>"; };
+		EA3A49491B6B63190091CF7E /* LITHandleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITHandleView.h; sourceTree = "<group>"; };
+		EA3A494A1B6B63190091CF7E /* LITHandleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITHandleView.m; sourceTree = "<group>"; };
+		EA3BE6A41B7CB33800A1110B /* UIView+BlurEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BlurEffect.h"; sourceTree = "<group>"; };
+		EA3BE6A51B7CB33800A1110B /* UIView+BlurEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BlurEffect.m"; sourceTree = "<group>"; };
+		EA3C02A21B81E77C0010AD93 /* UIViewController+LITKeyboardCellConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LITKeyboardCellConfigurator.h"; sourceTree = "<group>"; };
+		EA3C02A31B81E77C0010AD93 /* UIViewController+LITKeyboardCellConfigurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LITKeyboardCellConfigurator.m"; sourceTree = "<group>"; };
+		EA43105F1B4C358700B122A6 /* LITReplaceInitialControllerSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITReplaceInitialControllerSegue.h; sourceTree = "<group>"; };
+		EA4310601B4C358700B122A6 /* LITReplaceInitialControllerSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITReplaceInitialControllerSegue.m; sourceTree = "<group>"; };
+		EA4310651B4C59CA00B122A6 /* LITSoundbitesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITSoundbitesViewController.h; sourceTree = "<group>"; };
+		EA4310661B4C59CA00B122A6 /* LITSoundbitesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITSoundbitesViewController.m; sourceTree = "<group>"; };
+		EA4310681B4C5B3700B122A6 /* LITSoundbiteTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITSoundbiteTableViewCell.h; sourceTree = "<group>"; };
+		EA4310691B4C5B3700B122A6 /* LITSoundbiteTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITSoundbiteTableViewCell.m; sourceTree = "<group>"; };
+		EA56256E1B74B40400546DE0 /* LITKeyboardCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITKeyboardCustomView.h; sourceTree = "<group>"; };
+		EA56256F1B74B40400546DE0 /* LITKeyboardCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITKeyboardCustomView.m; sourceTree = "<group>"; };
+		EA5625711B74B41800546DE0 /* LITKeyboardBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITKeyboardBar.h; sourceTree = "<group>"; };
+		EA5625721B74B41800546DE0 /* LITKeyboardBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITKeyboardBar.m; sourceTree = "<group>"; };
+		EA5625751B74C6C400546DE0 /* LITBlurEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITBlurEffect.h; sourceTree = "<group>"; };
+		EA5625761B74C6C400546DE0 /* LITBlurEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITBlurEffect.m; sourceTree = "<group>"; };
+		EA5625791B74C82C00546DE0 /* UIViewController+CaptionInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CaptionInput.h"; sourceTree = "<group>"; };
+		EA56257A1B74C82C00546DE0 /* UIViewController+CaptionInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CaptionInput.m"; sourceTree = "<group>"; };
+		EA5684811B5CF63800D026F6 /* LITTagCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITTagCollectionViewCell.h; sourceTree = "<group>"; };
+		EA5684821B5CF63800D026F6 /* LITTagCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITTagCollectionViewCell.m; sourceTree = "<group>"; };
+		EA5684871B5CFCE300D026F6 /* LITTaggableContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITTaggableContent.h; sourceTree = "<group>"; };
+		EA5684891B5D484800D026F6 /* LITSoundbite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITSoundbite.h; sourceTree = "<group>"; };
+		EA56848A1B5D484800D026F6 /* LITSoundbite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITSoundbite.m; sourceTree = "<group>"; };
+		EA6790DF1BA6DA9200B1849E /* LITSharedFileCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITSharedFileCache.h; sourceTree = "<group>"; };
+		EA6790E01BA6DA9200B1849E /* LITSharedFileCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITSharedFileCache.m; sourceTree = "<group>"; };
+		EA6B24181B5E4DCE0019D342 /* LITDub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITDub.h; sourceTree = "<group>"; };
+		EA6B24191B5E4DCE0019D342 /* LITDub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITDub.m; sourceTree = "<group>"; };
+		EA71F0A01BAAC6C90016BC1C /* BridgeLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BridgeLayer.swift; sourceTree = "<group>"; };
+		EA71F0A11BAAC6C90016BC1C /* Cross.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cross.swift; sourceTree = "<group>"; };
+		EA71F0A21BAAC6C90016BC1C /* GooeyItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooeyItem.swift; sourceTree = "<group>"; };
+		EA71F0A31BAAC6C90016BC1C /* GooeyLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooeyLayer.swift; sourceTree = "<group>"; };
+		EA71F0A41BAAC6C90016BC1C /* SpringAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringAnimation.swift; sourceTree = "<group>"; };
+		EA71F0A51BAAC6C90016BC1C /* Vectors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vectors.swift; sourceTree = "<group>"; };
+		EA71F0AC1BAAC6D10016BC1C /* Gooey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gooey.swift; sourceTree = "<group>"; };
+		EA7769211B7B8BC1005D9395 /* LITKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LITKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA7769241B7B8BC2005D9395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA7769251B7B8BC2005D9395 /* LITKeyboardsBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LITKeyboardsBaseViewController.h; sourceTree = "<group>"; };
+		EA7C34C81B6FB6E9002295C5 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		EA7C34C91B6FC5B6002295C5 /* LITHistogramView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITHistogramView.h; sourceTree = "<group>"; };
+		EA7C34CA1B6FC5B6002295C5 /* LITHistogramView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITHistogramView.m; sourceTree = "<group>"; };
+		EA7D22B21B662A8A006BC50E /* LITKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITKeyboard.h; sourceTree = "<group>"; };
+		EA7D22B31B662A8A006BC50E /* LITKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITKeyboard.m; sourceTree = "<group>"; };
+		EA7D22B51B663931006BC50E /* LITLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITLoadingView.h; sourceTree = "<group>"; };
+		EA7D22B61B663931006BC50E /* LITLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITLoadingView.m; sourceTree = "<group>"; };
+		EA7D22B81B6639FA006BC50E /* LITRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITRect.h; sourceTree = "<group>"; };
+		EA7D22B91B6639FA006BC50E /* LITRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITRect.m; sourceTree = "<group>"; };
+		EA7D22BC1B66465E006BC50E /* LITSoundbiteTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LITSoundbiteTableViewCell.xib; sourceTree = "<group>"; };
+		EA7D22BE1B664670006BC50E /* LITKeyboardTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LITKeyboardTableViewCell.xib; sourceTree = "<group>"; };
+		EA7D22C01B664683006BC50E /* LITLyricsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LITLyricsTableViewCell.xib; sourceTree = "<group>"; };
+		EA80781E1B56964800B42639 /* LITDubPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITDubPreviewViewController.h; sourceTree = "<group>"; };
+		EA80781F1B56964800B42639 /* LITDubPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITDubPreviewViewController.m; sourceTree = "<group>"; };
+		EA8081D81BBD3BD800ABE52A /* LITKeyboardFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITKeyboardFooterView.h; sourceTree = "<group>"; };
+		EA8081D91BBD3BD800ABE52A /* LITKeyboardFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITKeyboardFooterView.m; sourceTree = "<group>"; };
+		EA8081DA1BBD3BD800ABE52A /* LITKeyboardFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LITKeyboardFooterView.xib; sourceTree = "<group>"; };
+		EA8081DD1BBD3E5F00ABE52A /* LITKeyboardHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITKeyboardHeaderView.h; sourceTree = "<group>"; };
+		EA8081DE1BBD3E5F00ABE52A /* LITKeyboardHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITKeyboardHeaderView.m; sourceTree = "<group>"; };
+		EA8081DF1BBD3E5F00ABE52A /* LITKeyboardHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LITKeyboardHeaderView.xib; sourceTree = "<group>"; };
+		EA86E8EC1B85F14200DDBBCA /* LITKeyboardFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITKeyboardFeedViewController.h; sourceTree = "<group>"; };
+		EA86E8ED1B85F14200DDBBCA /* LITKeyboardFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITKeyboardFeedViewController.m; sourceTree = "<group>"; };
+		EA86E8F11B85F37C00DDBBCA /* LITMainFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITMainFeedViewController.h; sourceTree = "<group>"; };
+		EA86E8F21B85F37C00DDBBCA /* LITMainFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITMainFeedViewController.m; sourceTree = "<group>"; };
+		EA871BE71BC438C40095AF0E /* LITTutorialFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITTutorialFirstViewController.h; sourceTree = "<group>"; };
+		EA871BE81BC438C40095AF0E /* LITTutorialFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITTutorialFirstViewController.m; sourceTree = "<group>"; };
+		EA8A7E561B7BBD3300436461 /* LITKeyboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITKeyboardViewController.h; sourceTree = "<group>"; };
+		EA8A7E571B7BBD3300436461 /* LITKeyboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITKeyboardViewController.m; sourceTree = "<group>"; };
+		EA8A7E5A1B7BBD7200436461 /* LITKBSoundbiteCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITKBSoundbiteCollectionViewCell.h; sourceTree = "<group>"; };
+		EA8A7E5B1B7BBD7200436461 /* LITKBSoundbiteCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITKBSoundbiteCollectionViewCell.m; sourceTree = "<group>"; };
+		EA8A7E5C1B7BBD7200436461 /* LITKBSoundbiteCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LITKBSoundbiteCollectionViewCell.xib; sourceTree = "<group>"; };
+		EA8A7E5F1B7BBD8500436461 /* LITKBDubCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITKBDubCollectionViewCell.h; sourceTree = "<group>"; };
+		EA8A7E601B7BBD8500436461 /* LITKBDubCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITKBDubCollectionViewCell.m; sourceTree = "<group>"; };
+		EA8A7E611B7BBD8500436461 /* LITKBDubCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LITKBDubCollectionViewCell.xib; sourceTree = "<group>"; };
+		EA8A7E671B7BBDBC00436461 /* LITKBLyricCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITKBLyricCollectionViewCell.h; sourceTree = "<group>"; };
+		EA8A7E681B7BBDBC00436461 /* LITKBLyricCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITKBLyricCollectionViewCell.m; sourceTree = "<group>"; };
+		EA8A7E691B7BBDBC00436461 /* LITKBLyricCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LITKBLyricCollectionViewCell.xib; sourceTree = "<group>"; };
+		EA8E57781B8732D3008820C9 /* LITBaseKeyboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.c.h; path = LITBaseKeyboardViewController.h; sourceTree = "<group>"; tabWidth = 4; usesTabs = 0; wrapsLines = 1; };
+		EA8E57791B8732D3008820C9 /* LITBaseKeyboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.c.objc; path = LITBaseKeyboardViewController.m; sourceTree = "<group>"; tabWidth = 4; usesTabs = 0; wrapsLines = 1; };
+		EA8E57811B8740FE008820C9 /* LITProfileKeyboardsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITProfileKeyboardsViewController.h; sourceTree = "<group>"; };
+		EA8E57821B8740FE008820C9 /* LITProfileKeyboardsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITProfileKeyboardsViewController.m; sourceTree = "<group>"; };
+		EA8E57841B8B2ED1008820C9 /* LITProfileFavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITProfileFavoritesViewController.h; sourceTree = "<group>"; };
+		EA8E57851B8B2ED1008820C9 /* LITProfileFavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITProfileFavoritesViewController.m; sourceTree = "<group>"; };
+		EA8E57871B8B79E8008820C9 /* LITFavoritesKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITFavoritesKeyboard.h; sourceTree = "<group>"; };
+		EA8E57881B8B79E8008820C9 /* LITFavoritesKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITFavoritesKeyboard.m; sourceTree = "<group>"; };
+		EA8F5FD41B78F21A006C48F2 /* UIView+GradientBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GradientBackground.h"; sourceTree = "<group>"; };
+		EA8F5FD51B78F21A006C48F2 /* UIView+GradientBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GradientBackground.m"; sourceTree = "<group>"; };
+		EA8F5FD71B7A1371006C48F2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EA95F8A41BB5BBE000D52A0C /* LITKBEmptyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITKBEmptyCollectionViewCell.h; sourceTree = "<group>"; };
+		EA95F8A51BB5BBE000D52A0C /* LITKBEmptyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITKBEmptyCollectionViewCell.m; sourceTree = "<group>"; };
+		EA95F8A61BB5BBE000D52A0C /* LITKBEmptyCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LITKBEmptyCollectionViewCell.xib; sourceTree = "<group>"; };
+		EAA0A3EF1B8C582D009FDDD9 /* LITSoundbitePlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITSoundbitePlayerController.h; sourceTree = "<group>"; };
+		EAA0A3F81B8CC0C6009FDDD9 /* LITSongTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITSongTableViewCell.h; sourceTree = "<group>"; };
+		EAA0A3F91B8CC0C6009FDDD9 /* LITSongTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITSongTableViewCell.m; sourceTree = "<group>"; };
+		EAA0A3FB1B8CCEC2009FDDD9 /* LITSimpleLyricsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITSimpleLyricsTableViewCell.h; sourceTree = "<group>"; };
+		EAA0A3FC1B8CCEC2009FDDD9 /* LITSimpleLyricsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITSimpleLyricsTableViewCell.m; sourceTree = "<group>"; };
+		EAAED5141B70D20900088FD1 /* LITTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITTheme.h; sourceTree = "<group>"; };
+		EAAED5151B70D20900088FD1 /* LITTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITTheme.m; sourceTree = "<group>"; };
+		EAB3B93C1B67CF870000F7D4 /* LITDubTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITDubTableViewCell.h; sourceTree = "<group>"; };
+		EAB3B93D1B67CF870000F7D4 /* LITDubTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITDubTableViewCell.m; sourceTree = "<group>"; };
+		EAB3B93F1B67CFC20000F7D4 /* LITDubTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LITDubTableViewCell.xib; sourceTree = "<group>"; };
+		EAC48BDE1B789BF40072B48F /* LITEmojiUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITEmojiUtils.h; sourceTree = "<group>"; };
+		EAC48BDF1B789BF40072B48F /* LITEmojiUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITEmojiUtils.m; sourceTree = "<group>"; };
+		EACC0C641B8DA3C60033222C /* Pods-lit-ios.appstore.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-lit-ios.appstore.xcconfig"; path = "Pods/Target Support Files/Pods-lit-ios/Pods-lit-ios.appstore.xcconfig"; sourceTree = "<group>"; };
+		EACC0C651B8DA3C60033222C /* Pods-lit-ios.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-lit-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lit-ios/Pods-lit-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		EACC0C681B8DA3EE0033222C /* Pods-lit-ios.adhoc.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-lit-ios.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-lit-ios/Pods-lit-ios.adhoc.xcconfig"; sourceTree = "<group>"; };
+		EACC0C6A1B8DA44A0033222C /* Pods-LITKeyboard.adhoc.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-LITKeyboard.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-LITKeyboard/Pods-LITKeyboard.adhoc.xcconfig"; sourceTree = "<group>"; };
+		EACC0C6B1B8DA44A0033222C /* Pods-LITKeyboard.appstore.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-LITKeyboard.appstore.xcconfig"; path = "Pods/Target Support Files/Pods-LITKeyboard/Pods-LITKeyboard.appstore.xcconfig"; sourceTree = "<group>"; };
+		EACC841F1BD5030D00A58116 /* AKStencilButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKStencilButton.h; sourceTree = "<group>"; };
+		EACC84201BD5030D00A58116 /* AKStencilButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKStencilButton.m; sourceTree = "<group>"; };
+		EACC97DA1BC6C12F00738164 /* pop.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = pop.aiff; sourceTree = "<group>"; };
+		EACDC3A71B4EC61A009347A2 /* ParseGlobals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParseGlobals.h; sourceTree = "<group>"; };
+		EACDC3A81B4ECB84009347A2 /* LITLyricsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITLyricsTableViewCell.h; sourceTree = "<group>"; };
+		EACDC3A91B4ECB84009347A2 /* LITLyricsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITLyricsTableViewCell.m; sourceTree = "<group>"; };
+		EACF21121B96E55400294804 /* LITContentQueryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITContentQueryTableViewController.h; sourceTree = "<group>"; };
+		EACF21131B96E55400294804 /* LITContentQueryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITContentQueryTableViewController.m; sourceTree = "<group>"; };
+		EACF21151B9710F200294804 /* LITSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITSearchBar.h; sourceTree = "<group>"; };
+		EACF21161B9710F200294804 /* LITSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITSearchBar.m; sourceTree = "<group>"; };
+		EACF21181B97113A00294804 /* LITSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITSearchController.h; sourceTree = "<group>"; };
+		EACF21191B97113A00294804 /* LITSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITSearchController.m; sourceTree = "<group>"; };
+		EAD1DC0F1B7B8DE400BC0468 /* LITKeyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LITKeyboard.storyboard; sourceTree = "<group>"; };
+		EAD2E6B31B862F4400866834 /* LITFeedDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITFeedDelegate.h; sourceTree = "<group>"; };
+		EAD3D5D31BC3E9FB003AFB54 /* Tutorial.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Tutorial.storyboard; sourceTree = "<group>"; };
+		EAD82DA21B7A4BD3009BC71B /* LITAdjustableLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITAdjustableLabel.h; sourceTree = "<group>"; };
+		EAD82DA31B7A4BD3009BC71B /* LITAdjustableLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITAdjustableLabel.m; sourceTree = "<group>"; };
+		EAE336581B57F0E00038E463 /* LITSoundbiteRecordSoundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITSoundbiteRecordSoundViewController.h; sourceTree = "<group>"; };
+		EAE336591B57F0E00038E463 /* LITSoundbiteRecordSoundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITSoundbiteRecordSoundViewController.m; sourceTree = "<group>"; };
+		EAE3365C1B5806FE0038E463 /* LITTouchDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITTouchDetector.m; sourceTree = "<group>"; };
+		EAE3365D1B5806FE0038E463 /* LITTouchDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITTouchDetector.h; sourceTree = "<group>"; };
+		EAE921BC1B9D8EA90094416B /* LITProfileContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITProfileContentViewController.h; sourceTree = "<group>"; };
+		EAE921BD1B9D8EA90094416B /* LITProfileContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITProfileContentViewController.m; sourceTree = "<group>"; };
+		EAF5C0D91B4FCF5B00A89BEC /* LITSoundbiteCropSongViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITSoundbiteCropSongViewController.h; sourceTree = "<group>"; };
+		EAF5C0DA1B4FCF5B00A89BEC /* LITSoundbiteCropSongViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITSoundbiteCropSongViewController.m; sourceTree = "<group>"; };
+		EAF5C0E81B50170500A89BEC /* LITLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITLoginViewController.h; sourceTree = "<group>"; };
+		EAF5C0E91B50170500A89BEC /* LITLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITLoginViewController.m; sourceTree = "<group>"; };
+		EAF5C0EB1B5024A700A89BEC /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		EAF5C0ED1B5024AB00A89BEC /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		EAFA83F51B5F85A600843FB2 /* LITLyric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITLyric.h; sourceTree = "<group>"; };
+		EAFA83F61B5F85A600843FB2 /* LITLyric.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITLyric.m; sourceTree = "<group>"; };
+		EAFA84001B60EA4900843FB2 /* LITVideoObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITVideoObject.h; sourceTree = "<group>"; };
+		EAFE96FF1BB0143C00C31520 /* SharkfoodMuteSwitchDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharkfoodMuteSwitchDetector.m; sourceTree = "<group>"; };
+		EAFE97001BB0143C00C31520 /* SharkfoodMuteSwitchDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharkfoodMuteSwitchDetector.h; sourceTree = "<group>"; };
+		EAFE97021BB01A8700C31520 /* mute.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = mute.caf; sourceTree = "<group>"; };
+		EAFF66D61BCE779F009F7731 /* Tutorial-iPhone4.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Tutorial-iPhone4.storyboard"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA38339F1B48239400B0AED3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				565F5FEC1BA9B59500E50A76 /* SystemConfiguration.framework in Frameworks */,
+				EAF5C0EE1B5024AB00A89BEC /* Social.framework in Frameworks */,
+				EAF5C0EC1B5024A700A89BEC /* Accounts.framework in Frameworks */,
+				EA2471EE1B4DAAF600507CEF /* MediaPlayer.framework in Frameworks */,
+				750477C88000C023EE6AE554 /* libPods-lit-ios.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA77691E1B7B8BC1005D9395 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA2BFDE89CF26AA78AB707AF /* libPods-LITKeyboard.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		565091371BCD0540005E4A1A /* CUSSender */ = {
+			isa = PBXGroup;
+			children = (
+				565091381BCD055E005E4A1A /* CUSSender.h */,
+				5650913B1BCD055E005E4A1A /* CUSSenderLayer.h */,
+				5650913C1BCD055E005E4A1A /* CUSSenderLayer.m */,
+				565091391BCD055E005E4A1A /* CUSSenderFallLayer.h */,
+				5650913A1BCD055E005E4A1A /* CUSSenderFallLayer.m */,
+				5650913F1BCD0584005E4A1A /* CUSSenderFireLayer.h */,
+				565091401BCD0584005E4A1A /* CUSSenderFireLayer.m */,
+			);
+			name = CUSSender;
+			sourceTree = "<group>";
+		};
+		56600AC31BE36E8200117695 /* WSCoachMarks */ = {
+			isa = PBXGroup;
+			children = (
+				56600AC01BE36E7C00117695 /* WSCoachMarksView.h */,
+				56600AC11BE36E7C00117695 /* WSCoachMarksView.m */,
+			);
+			name = WSCoachMarks;
+			sourceTree = "<group>";
+		};
+		5697971A1B84D5130016120F /* GooeyMenu */ = {
+			isa = PBXGroup;
+			children = (
+				EA71F0AC1BAAC6D10016BC1C /* Gooey.swift */,
+				EA71F0A01BAAC6C90016BC1C /* BridgeLayer.swift */,
+				EA71F0A11BAAC6C90016BC1C /* Cross.swift */,
+				EA71F0A21BAAC6C90016BC1C /* GooeyItem.swift */,
+				EA71F0A31BAAC6C90016BC1C /* GooeyLayer.swift */,
+				EA71F0A41BAAC6C90016BC1C /* SpringAnimation.swift */,
+				EA71F0A51BAAC6C90016BC1C /* Vectors.swift */,
+			);
+			name = GooeyMenu;
+			sourceTree = "<group>";
+		};
+		61C4DD5A996C9DFECFBD7193 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EACC0C651B8DA3C60033222C /* Pods-lit-ios.debug.xcconfig */,
+				EACC0C681B8DA3EE0033222C /* Pods-lit-ios.adhoc.xcconfig */,
+				EACC0C641B8DA3C60033222C /* Pods-lit-ios.appstore.xcconfig */,
+				C56683FFA9AD95CE58309316 /* Pods-LITKeyboard.debug.xcconfig */,
+				EACC0C6A1B8DA44A0033222C /* Pods-LITKeyboard.adhoc.xcconfig */,
+				EACC0C6B1B8DA44A0033222C /* Pods-LITKeyboard.appstore.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		96F7AB5E159E372F39B01E3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				569D04901BA98D7000ACDF2C /* SystemConfiguration.framework */,
+				EA30C9E81B7BA2330048FC29 /* Security.framework */,
+				EAF5C0ED1B5024AB00A89BEC /* Social.framework */,
+				EAF5C0EB1B5024A700A89BEC /* Accounts.framework */,
+				EA2471ED1B4DAAF600507CEF /* MediaPlayer.framework */,
+				7A4C3BCB2067FDC947D2ED0E /* libPods-LITKeyboard.a */,
+				9467A26503437C990C1A8EF6 /* libPods-lit-ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE0208101CB75C3C00E10F44 /* SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				CE3032481CBA2E6B00AC2838 /* AKTagCell.h */,
+				CE3032491CBA2E6B00AC2838 /* AKTagCell.m */,
+				CE30324A1CBA2E6B00AC2838 /* AKTagsDefines.h */,
+				CE30324D1CBA2E6B00AC2838 /* AKTagsListView.h */,
+				CE30324E1CBA2E6B00AC2838 /* AKTagsListView.m */,
+				CE30324F1CBA2E6B00AC2838 /* AKTagsLookup.h */,
+				CE3032501CBA2E6B00AC2838 /* AKTagsLookup.m */,
+				CE3032551CBA2E6B00AC2838 /* Constants.h */,
+				CE3032561CBA2E6B00AC2838 /* NSString+StringSizeWithFont.h */,
+				CE3032571CBA2E6B00AC2838 /* NSString+StringSizeWithFont.m */,
+			);
+			name = SearchBar;
+			sourceTree = "<group>";
+		};
+		CE71085D1CB5466D0042487B /* SearchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CEF99FD91CBB72080033BE28 /* Keyboard.storyboard */,
+				848D65CD1CC28472000CAFC1 /* SearchViewController.h */,
+				848D65CE1CC28472000CAFC1 /* SearchViewController.m */,
+				CE3032421CBA06C000AC2838 /* KeyboardViewController.h */,
+				CE3032431CBA06C000AC2838 /* KeyboardViewController.m */,
+				CE3032411CBA063000AC2838 /* Header.h */,
+				CEA249A31CBCFC0100611A26 /* KeyButton */,
+				CE0208101CB75C3C00E10F44 /* SearchBar */,
+			);
+			name = SearchScreen;
+			sourceTree = "<group>";
+		};
+		CEA249A31CBCFC0100611A26 /* KeyButton */ = {
+			isa = PBXGroup;
+			children = (
+				CEA249A41CBCFC1A00611A26 /* LITKBLetter.h */,
+				CEA249A51CBCFC1A00611A26 /* LITKBLetter.m */,
+				CEA249A61CBCFC1A00611A26 /* LITKBSymbol.h */,
+				CEA249A71CBCFC1A00611A26 /* LITKBSymbol.m */,
+			);
+			name = KeyButton;
+			sourceTree = "<group>";
+		};
+		CEEDB34D1CC47F7F00F26F31 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				CEEDB3891CC48B4200F26F31 /* SF-UI-Text-Regular.otf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		EA143AA01B832A5B0085F2A6 /* Keyboards */ = {
+			isa = PBXGroup;
+			children = (
+				EA143AA11B832A790085F2A6 /* LITAddToKeyboardViewController.h */,
+				EA143AA21B832A790085F2A6 /* LITAddToKeyboardViewController.m */,
+				566E16431B9DD5FA009CFAC0 /* LITKeyboardCellPreviewController.h */,
+				566E16461B9DD69C009CFAC0 /* LITKeyboardCellPlayerHelper.h */,
+				566E16471B9DD69C009CFAC0 /* LITKeyboardCellPlayerHelper.m */,
+			);
+			name = Keyboards;
+			sourceTree = "<group>";
+		};
+		EA1BA7181BC510EF003C64AB /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				EA871BE71BC438C40095AF0E /* LITTutorialFirstViewController.h */,
+				EA871BE81BC438C40095AF0E /* LITTutorialFirstViewController.m */,
+				EA1BA7231BC51850003C64AB /* LITTutorialSecondViewController.h */,
+				EA1BA7241BC51850003C64AB /* LITTutorialSecondViewController.m */,
+				EA1BA71D1BC5139A003C64AB /* LITTutorialThirdViewController.h */,
+				EA1BA71E1BC5139A003C64AB /* LITTutorialThirdViewController.m */,
+				56B284711BE272E500E32970 /* LITTutorialThirdNextViewController.h */,
+				56B284721BE272E500E32970 /* LITTutorialThirdNextViewController.m */,
+				EA1BA7261BC51865003C64AB /* LITTutorialFourthViewController.h */,
+				EA1BA7271BC51865003C64AB /* LITTutorialFourthViewController.m */,
+				EA1BA7201BC513AA003C64AB /* LITTutorialFifthViewController.h */,
+				EA1BA7211BC513AA003C64AB /* LITTutorialFifthViewController.m */,
+				EAD3D5D31BC3E9FB003AFB54 /* Tutorial.storyboard */,
+				EAFF66D61BCE779F009F7731 /* Tutorial-iPhone4.storyboard */,
+			);
+			name = OnBoarding;
+			sourceTree = "<group>";
+		};
+		EA23059F1B4AE86D00B8A30A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EA1BA7181BC510EF003C64AB /* OnBoarding */,
+				EA143AA01B832A5B0085F2A6 /* Keyboards */,
+				EA5625781B74C81100546DE0 /* Categories */,
+				EA8E57801B8740B9008820C9 /* Profile */,
+				EA86E8EB1B85F11700DDBBCA /* Main */,
+				EAFA83F81B5F884000843FB2 /* Lyrics */,
+				EA56B2A61B58F5FD002D6C29 /* Dubs */,
+				EA56B2A51B58F5E5002D6C29 /* Soundbites */,
+				EA2305A01B4AE89800B8A30A /* LITInitialViewController.h */,
+				EA2305A11B4AE89800B8A30A /* LITInitialViewController.m */,
+				EAF5C0E81B50170500A89BEC /* LITLoginViewController.h */,
+				EAF5C0E91B50170500A89BEC /* LITLoginViewController.m */,
+				EA2471F81B4E693600507CEF /* LITSettingsViewController.h */,
+				EA2471F91B4E693600507CEF /* LITSettingsViewController.m */,
+				EA2471FB1B4E6E6A00507CEF /* LITAboutViewController.h */,
+				EA2471FC1B4E6E6A00507CEF /* LITAboutViewController.m */,
+				EA2471FE1B4E6E8100507CEF /* LITFAQViewController.h */,
+				EA2471FF1B4E6E8100507CEF /* LITFAQViewController.m */,
+				56B00B431B90A5A3008C0B2F /* LITFeedbackViewController.h */,
+				56B00B441B90A5A3008C0B2F /* LITFeedbackViewController.m */,
+				56F416BF1BCFA71700F225DA /* LITTermsOfServiceViewController.h */,
+				56F416C01BCFA71700F225DA /* LITTermsOfServiceViewController.m */,
+				56B682171BFA349B00A879EC /* LITTaggingViewController.h */,
+				56B682181BFA349B00A879EC /* LITTaggingViewController.m */,
+				56150EE51BFA52AF00653A70 /* LITTaggingCollectionViewController.h */,
+				56150EE61BFA52AF00653A70 /* LITTaggingCollectionViewController.m */,
+				569D279B1BE0DB8E00BD8522 /* LITTaggingTutorialViewController.h */,
+				569D279C1BE0DB8E00BD8522 /* LITTaggingTutorialViewController.m */,
+				5686CFC11B87333A004E0CDD /* LITCongratsKeyboardViewController.h */,
+				5686CFC21B87333A004E0CDD /* LITCongratsKeyboardViewController.m */,
+				5683B1511B907C8700F50938 /* LITReportViewController.h */,
+				5683B1521B907C8700F50938 /* LITReportViewController.m */,
+				EA2BCCBD1B95BF1A00FC46E5 /* LITTableSearchHelper.h */,
+				EA2BCCBE1B95BF1A00FC46E5 /* LITTableSearchHelper.m */,
+				EACF21121B96E55400294804 /* LITContentQueryTableViewController.h */,
+				EACF21131B96E55400294804 /* LITContentQueryTableViewController.m */,
+				565F5FED1BA9B93F00E50A76 /* LITNoInternetConnectionViewController.h */,
+				565F5FEE1BA9B93F00E50A76 /* LITNoInternetConnectionViewController.m */,
+				EA2673601BFDE6AD00C564F5 /* LITAddContentViewController.h */,
+				EA2673611BFDE6AD00C564F5 /* LITAddContentViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EA28DCFC1B56C7B700DFDA37 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				565091371BCD0540005E4A1A /* CUSSender */,
+				56600AC31BE36E8200117695 /* WSCoachMarks */,
+				56BA20921BB92D820002EA5C /* UIImage+emoji.h */,
+				56BA20931BB92D820002EA5C /* UIImage+emoji.m */,
+				EAFE97001BB0143C00C31520 /* SharkfoodMuteSwitchDetector.h */,
+				EAFE96FF1BB0143C00C31520 /* SharkfoodMuteSwitchDetector.m */,
+				EAE3365D1B5806FE0038E463 /* LITTouchDetector.h */,
+				EAE3365C1B5806FE0038E463 /* LITTouchDetector.m */,
+				EA28DCF91B56C7B300DFDA37 /* AVUtils.h */,
+				EA28DCFA1B56C7B300DFDA37 /* AVUtils.m */,
+				EAAED5141B70D20900088FD1 /* LITTheme.h */,
+				EAAED5151B70D20900088FD1 /* LITTheme.m */,
+				EAC48BDE1B789BF40072B48F /* LITEmojiUtils.h */,
+				EAC48BDF1B789BF40072B48F /* LITEmojiUtils.m */,
+				566336631B8C55F700FE1605 /* LITImageUtils.h */,
+				566336641B8C55F700FE1605 /* LITImageUtils.m */,
+				5681512D1B8DD07200AA3178 /* LITProgressHud.h */,
+				5681512E1B8DD07200AA3178 /* LITProgressHud.m */,
+				EACF21181B97113A00294804 /* LITSearchController.h */,
+				EACF21191B97113A00294804 /* LITSearchController.m */,
+				563652A51BA17F93008B994F /* LITCropperViewController.h */,
+				563652A61BA17F93008B994F /* LITCropperViewController.m */,
+				EA30BE7A1BA2E2A70028BDDD /* LITKeyboardInstallerHelper.h */,
+				EA30BE7B1BA2E2A70028BDDD /* LITKeyboardInstallerHelper.m */,
+				56B729B01BA3373C001C8830 /* LITShareHelper.h */,
+				56B729B11BA3373C001C8830 /* LITShareHelper.m */,
+				56B1822B1BA8298B00AECA64 /* LITActionSheet.h */,
+				56B1822C1BA8298B00AECA64 /* LITActionSheet.m */,
+				EA6790DF1BA6DA9200B1849E /* LITSharedFileCache.h */,
+				EA6790E01BA6DA9200B1849E /* LITSharedFileCache.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		EA3833991B48239400B0AED3 = {
+			isa = PBXGroup;
+			children = (
+				569797311B84E1F90016120F /* SwiftBridging.h */,
+				EA8F5FD71B7A1371006C48F2 /* Default-568h@2x.png */,
+				EA3833A41B48239400B0AED3 /* lit-ios */,
+				EA3833BE1B48239400B0AED3 /* lit-iosTests */,
+				EA7769221B7B8BC2005D9395 /* LITKeyboard */,
+				EA3833A31B48239400B0AED3 /* Products */,
+				61C4DD5A996C9DFECFBD7193 /* Pods */,
+				96F7AB5E159E372F39B01E3B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA3833A31B48239400B0AED3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA3833A21B48239400B0AED3 /* lit-ios.app */,
+				EA7769211B7B8BC1005D9395 /* LITKeyboard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA3833A41B48239400B0AED3 /* lit-ios */ = {
+			isa = PBXGroup;
+			children = (
+				EA30C9E71B7B95E20048FC29 /* lit-ios.entitlements */,
+				5697971A1B84D5130016120F /* GooeyMenu */,
+				EA5625741B74C6AB00546DE0 /* Effects */,
+				EA5684881B5D482500D026F6 /* Model */,
+				EA28DCFC1B56C7B700DFDA37 /* Utils */,
+				EA43106B1B4C5B3E00B122A6 /* Views */,
+				EA43105E1B4C355A00B122A6 /* Segues */,
+				EA23059F1B4AE86D00B8A30A /* ViewControllers */,
+				EA3833A91B48239400B0AED3 /* AppDelegate.h */,
+				EA3833AA1B48239400B0AED3 /* AppDelegate.m */,
+				EA3833AF1B48239400B0AED3 /* Main.storyboard */,
+				EA3833B21B48239400B0AED3 /* Images.xcassets */,
+				EA3833B41B48239400B0AED3 /* LaunchScreen.xib */,
+				EA3833A51B48239400B0AED3 /* Supporting Files */,
+				56094B5E1BE372EA005BC04B /* LITGlobals.h */,
+				EACDC3A71B4EC61A009347A2 /* ParseGlobals.h */,
+				560ADDD81BCD245A0001C023 /* MixpanelGlobals.h */,
+				EA7C34C81B6FB6E9002295C5 /* Constants.h */,
+				EAFE97021BB01A8700C31520 /* mute.caf */,
+				EACC97DA1BC6C12F00738164 /* pop.aiff */,
+				EA335E041BC58C4B00E40001 /* secondTutorialVideo.m4v */,
+				EA1BA71B1BC5131C003C64AB /* firstTutorialVideo.m4v */,
+				565FF24C1BE28AE6000F22E9 /* extensionInstallTutorialVideo.m4v */,
+				EA1BA7191BC51312003C64AB /* thirdTutorialVideo.m4v */,
+				56431BF81C031FE500486AD2 /* PrivacyPolicy.pdf */,
+				56431BF91C031FE500486AD2 /* TermsOfUse.pdf */,
+			);
+			path = "lit-ios";
+			sourceTree = "<group>";
+		};
+		EA3833A51B48239400B0AED3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA3833A61B48239400B0AED3 /* Info.plist */,
+				EA3833A71B48239400B0AED3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA3833BE1B48239400B0AED3 /* lit-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA3833C11B48239400B0AED3 /* lit_iosTests.m */,
+				EA3833BF1B48239400B0AED3 /* Supporting Files */,
+			);
+			path = "lit-iosTests";
+			sourceTree = "<group>";
+		};
+		EA3833BF1B48239400B0AED3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA3833C01B48239400B0AED3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA43105E1B4C355A00B122A6 /* Segues */ = {
+			isa = PBXGroup;
+			children = (
+				EA43105F1B4C358700B122A6 /* LITReplaceInitialControllerSegue.h */,
+				EA4310601B4C358700B122A6 /* LITReplaceInitialControllerSegue.m */,
+			);
+			name = Segues;
+			sourceTree = "<group>";
+		};
+		EA43106B1B4C5B3E00B122A6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EA8081D01BBD384000ABE52A /* CollectionFeed */,
+				EA56256D1B74B3EC00546DE0 /* KeyboardInput */,
+				EACC841F1BD5030D00A58116 /* AKStencilButton.h */,
+				EACC84201BD5030D00A58116 /* AKStencilButton.m */,
+				EA7D22B81B6639FA006BC50E /* LITRect.h */,
+				EA7D22B91B6639FA006BC50E /* LITRect.m */,
+				EA7D22B51B663931006BC50E /* LITLoadingView.h */,
+				EA7D22B61B663931006BC50E /* LITLoadingView.m */,
+				EA2F37D31B68DE4100835E66 /* LITHistogramControlView.h */,
+				EA2F37D41B68DE4100835E66 /* LITHistogramControlView.m */,
+				EA7C34C91B6FC5B6002295C5 /* LITHistogramView.h */,
+				EA7C34CA1B6FC5B6002295C5 /* LITHistogramView.m */,
+				EA3A49491B6B63190091CF7E /* LITHandleView.h */,
+				EA3A494A1B6B63190091CF7E /* LITHandleView.m */,
+				EA1A18831B70F4D00041545D /* LITGradientNavigationBar.h */,
+				EA1A18841B70F4D00041545D /* LITGradientNavigationBar.m */,
+				EAD82DA21B7A4BD3009BC71B /* LITAdjustableLabel.h */,
+				EAD82DA31B7A4BD3009BC71B /* LITAdjustableLabel.m */,
+				56972B361B8386DF0083BF91 /* LITBlockFAQ.h */,
+				56972B371B8386DF0083BF91 /* LITBlockFAQ.m */,
+				56EE9EEF1B7E4DF200CDAA94 /* LITProfileHeader.h */,
+				56EE9EF01B7E4DF200CDAA94 /* LITProfileHeader.m */,
+				56EE9EF21B7E4E0500CDAA94 /* LITProfileHeader.xib */,
+				56B182311BA83E7300AECA64 /* LITKeyboardActionSheetHeader.h */,
+				56B182321BA83E7300AECA64 /* LITKeyboardActionSheetHeader.m */,
+				569483531BA85FEA0071EE11 /* LITKeyboardActionSheetHeader.xib */,
+				56971D521B85BF9600BE2299 /* LITGestureRecognizerView.h */,
+				56971D531B85BF9600BE2299 /* LITGestureRecognizerView.m */,
+				EA43106C1B4C5B4D00B122A6 /* Cells */,
+				EACF21151B9710F200294804 /* LITSearchBar.h */,
+				EACF21161B9710F200294804 /* LITSearchBar.m */,
+				569B67501B99F88500AD9939 /* UICollectionView+OptionsPresenting.h */,
+				569B67511B99F88500AD9939 /* UICollectionView+OptionsPresenting.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		EA43106C1B4C5B4D00B122A6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EA18F2961B84CA5500FD2DB6 /* LITBaseSoundbiteTableViewCell.h */,
+				EA18F2971B84CA5500FD2DB6 /* LITBaseSoundbiteTableViewCell.m */,
+				EA18F2911B84C4DD00FD2DB6 /* LITSimpleSoundbiteTableViewCell.h */,
+				EA18F2921B84C4DD00FD2DB6 /* LITSimpleSoundbiteTableViewCell.m */,
+				EA18F2941B84C4F200FD2DB6 /* LITSimpleSoundbiteTableViewCell.xib */,
+				EA4310681B4C5B3700B122A6 /* LITSoundbiteTableViewCell.h */,
+				EA4310691B4C5B3700B122A6 /* LITSoundbiteTableViewCell.m */,
+				EA7D22BC1B66465E006BC50E /* LITSoundbiteTableViewCell.xib */,
+				EAB3B93C1B67CF870000F7D4 /* LITDubTableViewCell.h */,
+				EAB3B93D1B67CF870000F7D4 /* LITDubTableViewCell.m */,
+				EAB3B93F1B67CFC20000F7D4 /* LITDubTableViewCell.xib */,
+				EA2471EF1B4E667900507CEF /* LITKeyboardTableViewCell.h */,
+				EA2471F01B4E667900507CEF /* LITKeyboardTableViewCell.m */,
+				EA7D22BE1B664670006BC50E /* LITKeyboardTableViewCell.xib */,
+				EACDC3A81B4ECB84009347A2 /* LITLyricsTableViewCell.h */,
+				EACDC3A91B4ECB84009347A2 /* LITLyricsTableViewCell.m */,
+				EA7D22C01B664683006BC50E /* LITLyricsTableViewCell.xib */,
+				EA2471F21B4E66D300507CEF /* LITUserProfileTableViewCell.h */,
+				EA2471F31B4E66D300507CEF /* LITUserProfileTableViewCell.m */,
+				EA5684811B5CF63800D026F6 /* LITTagCollectionViewCell.h */,
+				EA5684821B5CF63800D026F6 /* LITTagCollectionViewCell.m */,
+				EA143AA41B8331180085F2A6 /* LITAddToKeyboardTableViewCell.h */,
+				EA143AA51B8331180085F2A6 /* LITAddToKeyboardTableViewCell.m */,
+				56EE9EF41B7E52FC00CDAA94 /* LITSettingsTableViewCell.h */,
+				56EE9EF51B7E52FC00CDAA94 /* LITSettingsTableViewCell.m */,
+				EAA0A3F81B8CC0C6009FDDD9 /* LITSongTableViewCell.h */,
+				EAA0A3F91B8CC0C6009FDDD9 /* LITSongTableViewCell.m */,
+				EAA0A3FB1B8CCEC2009FDDD9 /* LITSimpleLyricsTableViewCell.h */,
+				EAA0A3FC1B8CCEC2009FDDD9 /* LITSimpleLyricsTableViewCell.m */,
+				569B674E1B99F3AD00AD9939 /* LITOptionsTableViewCell.xib */,
+				56F3C3571BC67A2700B1DD6B /* LITFaqTableViewCell.h */,
+				56F3C3581BC67A2700B1DD6B /* LITFaqTableViewCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		EA56256D1B74B3EC00546DE0 /* KeyboardInput */ = {
+			isa = PBXGroup;
+			children = (
+				EA5625711B74B41800546DE0 /* LITKeyboardBar.h */,
+				EA5625721B74B41800546DE0 /* LITKeyboardBar.m */,
+				EA56256E1B74B40400546DE0 /* LITKeyboardCustomView.h */,
+				EA56256F1B74B40400546DE0 /* LITKeyboardCustomView.m */,
+			);
+			name = KeyboardInput;
+			sourceTree = "<group>";
+		};
+		EA5625741B74C6AB00546DE0 /* Effects */ = {
+			isa = PBXGroup;
+			children = (
+				EA5625751B74C6C400546DE0 /* LITBlurEffect.h */,
+				EA5625761B74C6C400546DE0 /* LITBlurEffect.m */,
+				EA8F5FD41B78F21A006C48F2 /* UIView+GradientBackground.h */,
+				EA8F5FD51B78F21A006C48F2 /* UIView+GradientBackground.m */,
+				EA3BE6A41B7CB33800A1110B /* UIView+BlurEffect.h */,
+				EA3BE6A51B7CB33800A1110B /* UIView+BlurEffect.m */,
+				EA37E6311BBEE192001D93C6 /* LITCollectionViewDecorationLayout.h */,
+				EA37E6321BBEE192001D93C6 /* LITCollectionViewDecorationLayout.m */,
+			);
+			name = Effects;
+			sourceTree = "<group>";
+		};
+		EA5625781B74C81100546DE0 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				5685175E1B95BAB100A8DC03 /* UIViewController+KeyboardAnimator.h */,
+				5685175F1B95BAB100A8DC03 /* UIViewController+KeyboardAnimator.m */,
+				EA5625791B74C82C00546DE0 /* UIViewController+CaptionInput.h */,
+				EA56257A1B74C82C00546DE0 /* UIViewController+CaptionInput.m */,
+				EA3C02A21B81E77C0010AD93 /* UIViewController+LITKeyboardCellConfigurator.h */,
+				EA3C02A31B81E77C0010AD93 /* UIViewController+LITKeyboardCellConfigurator.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		EA5684881B5D482500D026F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EA56848F1B5D491B00D026F6 /* Classes */,
+				EA5684901B5D491F00D026F6 /* Protocols */,
+				EAFA83FC1B5FE7F100843FB2 /* Category */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EA56848F1B5D491B00D026F6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				84364E2D1C8B13C70005E9AE /* DataKeeper.h */,
+				84364E2E1C8B13C70005E9AE /* DataKeeper.m */,
+				EA7D22B21B662A8A006BC50E /* LITKeyboard.h */,
+				EA7D22B31B662A8A006BC50E /* LITKeyboard.m */,
+				EA8E57871B8B79E8008820C9 /* LITFavoritesKeyboard.h */,
+				EA8E57881B8B79E8008820C9 /* LITFavoritesKeyboard.m */,
+				EA5684891B5D484800D026F6 /* LITSoundbite.h */,
+				EA56848A1B5D484800D026F6 /* LITSoundbite.m */,
+				EA6B24181B5E4DCE0019D342 /* LITDub.h */,
+				EA6B24191B5E4DCE0019D342 /* LITDub.m */,
+				EAFA83F51B5F85A600843FB2 /* LITLyric.h */,
+				EAFA83F61B5F85A600843FB2 /* LITLyric.m */,
+				EA01A4251B6100EF00ABD780 /* LITSong.h */,
+				EA01A4261B6100EF00ABD780 /* LITSong.m */,
+				84B94C001C9EFBE500211050 /* LITEmoji.h */,
+				84B94C011C9EFBE500211050 /* LITEmoji.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		EA5684901B5D491F00D026F6 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				EA5684871B5CFCE300D026F6 /* LITTaggableContent.h */,
+				EAFA84001B60EA4900843FB2 /* LITVideoObject.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		EA56B2A51B58F5E5002D6C29 /* Soundbites */ = {
+			isa = PBXGroup;
+			children = (
+				EAA0A3EF1B8C582D009FDDD9 /* LITSoundbitePlayerController.h */,
+				EA4310651B4C59CA00B122A6 /* LITSoundbitesViewController.h */,
+				EA4310661B4C59CA00B122A6 /* LITSoundbitesViewController.m */,
+				EAF5C0D91B4FCF5B00A89BEC /* LITSoundbiteCropSongViewController.h */,
+				EAF5C0DA1B4FCF5B00A89BEC /* LITSoundbiteCropSongViewController.m */,
+				EAE336581B57F0E00038E463 /* LITSoundbiteRecordSoundViewController.h */,
+				EAE336591B57F0E00038E463 /* LITSoundbiteRecordSoundViewController.m */,
+				EA2BCCB71B95A4EB00FC46E5 /* LITSoundbitePlayerHelper.h */,
+				EA2BCCB81B95A4EB00FC46E5 /* LITSoundbitePlayerHelper.m */,
+				569F68811B997F4A00505FD7 /* LITSoundbitePreviewViewController.h */,
+				569F68821B997F4A00505FD7 /* LITSoundbitePreviewViewController.m */,
+			);
+			name = Soundbites;
+			sourceTree = "<group>";
+		};
+		EA56B2A61B58F5FD002D6C29 /* Dubs */ = {
+			isa = PBXGroup;
+			children = (
+				EA2D0F7E1B85CED800D3368F /* LITDubsViewController.h */,
+				EA2D0F7F1B85CED800D3368F /* LITDubsViewController.m */,
+				EA2471EA1B4DA8B000507CEF /* LITDubsPickSoundbiteViewController.h */,
+				EA2471EB1B4DA8B000507CEF /* LITDubsPickSoundbiteViewController.m */,
+				EA2FC5841B568C880086278F /* LITDubCreationViewController.h */,
+				EA2FC5851B568C880086278F /* LITDubCreationViewController.m */,
+				EA80781E1B56964800B42639 /* LITDubPreviewViewController.h */,
+				EA80781F1B56964800B42639 /* LITDubPreviewViewController.m */,
+			);
+			name = Dubs;
+			sourceTree = "<group>";
+		};
+		EA7769221B7B8BC2005D9395 /* LITKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				CEEDB34D1CC47F7F00F26F31 /* Font */,
+				CE71085D1CB5466D0042487B /* SearchScreen */,
+				EA8A7E591B7BBD4500436461 /* Cells */,
+				EA30C9E61B7B95C90048FC29 /* LITKeyboard.entitlements */,
+				561D05A41BB56A48003CB627 /* LITKeyboardNoAccessViewController.h */,
+				561D05A51BB56A48003CB627 /* LITKeyboardNoAccessViewController.m */,
+				CE30325F1CBA302B00AC2838 /* LITKeyboardsBaseViewController.m */,
+				EA7769251B7B8BC2005D9395 /* LITKeyboardsBaseViewController.h */,
+				EA8A7E561B7BBD3300436461 /* LITKeyboardViewController.h */,
+				EA8A7E571B7BBD3300436461 /* LITKeyboardViewController.m */,
+				EA233AD51BC28E4F006D2676 /* LITKeyboardTutorialViewController.h */,
+				EA233AD61BC28E4F006D2676 /* LITKeyboardTutorialViewController.m */,
+				EA7769231B7B8BC2005D9395 /* Supporting Files */,
+				EAD1DC0F1B7B8DE400BC0468 /* LITKeyboard.storyboard */,
+				CEA249A11CBCF97900611A26 /* KeyboardAssets.xcassets */,
+			);
+			path = LITKeyboard;
+			sourceTree = "<group>";
+		};
+		EA7769231B7B8BC2005D9395 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA7769241B7B8BC2005D9395 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA8081D01BBD384000ABE52A /* CollectionFeed */ = {
+			isa = PBXGroup;
+			children = (
+				EA8081DD1BBD3E5F00ABE52A /* LITKeyboardHeaderView.h */,
+				EA8081DE1BBD3E5F00ABE52A /* LITKeyboardHeaderView.m */,
+				EA8081DF1BBD3E5F00ABE52A /* LITKeyboardHeaderView.xib */,
+				EA8081D81BBD3BD800ABE52A /* LITKeyboardFooterView.h */,
+				EA8081D91BBD3BD800ABE52A /* LITKeyboardFooterView.m */,
+				EA8081DA1BBD3BD800ABE52A /* LITKeyboardFooterView.xib */,
+			);
+			name = CollectionFeed;
+			sourceTree = "<group>";
+		};
+		EA86E8EB1B85F11700DDBBCA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EA23059C1B4AE85E00B8A30A /* LITMainViewController.h */,
+				EA23059D1B4AE85E00B8A30A /* LITMainViewController.m */,
+				EA8E57781B8732D3008820C9 /* LITBaseKeyboardViewController.h */,
+				EA8E57791B8732D3008820C9 /* LITBaseKeyboardViewController.m */,
+				EA86E8EC1B85F14200DDBBCA /* LITKeyboardFeedViewController.h */,
+				EA86E8ED1B85F14200DDBBCA /* LITKeyboardFeedViewController.m */,
+				EA86E8F11B85F37C00DDBBCA /* LITMainFeedViewController.h */,
+				EA86E8F21B85F37C00DDBBCA /* LITMainFeedViewController.m */,
+				EAD2E6B31B862F4400866834 /* LITFeedDelegate.h */,
+				EA210BA21BA07C4F00FB1B3F /* LITCustomPushAnimator.h */,
+				EA210BA31BA07C4F00FB1B3F /* LITCustomPushAnimator.m */,
+				56AAE5DD1BB156ED00BD26B7 /* LITEmojiSearchCollectionViewController.h */,
+				56AAE5DE1BB156ED00BD26B7 /* LITEmojiSearchCollectionViewController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		EA8A7E591B7BBD4500436461 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				56064A6B1B96EAD7001950B4 /* LITKBBaseCollectionViewCell.h */,
+				56064A6C1B96EAD7001950B4 /* LITKBBaseCollectionViewCell.m */,
+				EA8A7E5A1B7BBD7200436461 /* LITKBSoundbiteCollectionViewCell.h */,
+				EA8A7E5B1B7BBD7200436461 /* LITKBSoundbiteCollectionViewCell.m */,
+				EA8A7E5C1B7BBD7200436461 /* LITKBSoundbiteCollectionViewCell.xib */,
+				EA8A7E5F1B7BBD8500436461 /* LITKBDubCollectionViewCell.h */,
+				EA8A7E601B7BBD8500436461 /* LITKBDubCollectionViewCell.m */,
+				EA8A7E611B7BBD8500436461 /* LITKBDubCollectionViewCell.xib */,
+				EA8A7E671B7BBDBC00436461 /* LITKBLyricCollectionViewCell.h */,
+				EA8A7E681B7BBDBC00436461 /* LITKBLyricCollectionViewCell.m */,
+				EA8A7E691B7BBDBC00436461 /* LITKBLyricCollectionViewCell.xib */,
+				EA95F8A41BB5BBE000D52A0C /* LITKBEmptyCollectionViewCell.h */,
+				EA95F8A51BB5BBE000D52A0C /* LITKBEmptyCollectionViewCell.m */,
+				EA95F8A61BB5BBE000D52A0C /* LITKBEmptyCollectionViewCell.xib */,
+				84B94C031C9EFD9100211050 /* LITKBEmojiCollectionViewCell.h */,
+				84B94C041C9EFD9100211050 /* LITKBEmojiCollectionViewCell.m */,
+				84B94C051C9EFD9100211050 /* LITKBEmojiCollectionViewCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		EA8E57801B8740B9008820C9 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				EA2471F51B4E692800507CEF /* LITProfileViewController.h */,
+				EA2471F61B4E692800507CEF /* LITProfileViewController.m */,
+				EA8E57811B8740FE008820C9 /* LITProfileKeyboardsViewController.h */,
+				EA8E57821B8740FE008820C9 /* LITProfileKeyboardsViewController.m */,
+				EA8E57841B8B2ED1008820C9 /* LITProfileFavoritesViewController.h */,
+				EA8E57851B8B2ED1008820C9 /* LITProfileFavoritesViewController.m */,
+				EAE921BC1B9D8EA90094416B /* LITProfileContentViewController.h */,
+				EAE921BD1B9D8EA90094416B /* LITProfileContentViewController.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		EAFA83F81B5F884000843FB2 /* Lyrics */ = {
+			isa = PBXGroup;
+			children = (
+				EA2471E71B4D3C5000507CEF /* LITLyricsViewController.h */,
+				EA2471E81B4D3C5000507CEF /* LITLyricsViewController.m */,
+				EA01A4281B612BA500ABD780 /* LITTopSongsSelectionViewController.h */,
+				EA01A4291B612BA500ABD780 /* LITTopSongsSelectionViewController.m */,
+				EA01A42B1B612EF900ABD780 /* LITLyricCreationViewController.h */,
+				EA01A42C1B612EF900ABD780 /* LITLyricCreationViewController.m */,
+			);
+			name = Lyrics;
+			sourceTree = "<group>";
+		};
+		EAFA83FC1B5FE7F100843FB2 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				EA1A18861B7107320041545D /* UIViewController+ProfileUpdater.h */,
+				EA1A18871B7107320041545D /* UIViewController+ProfileUpdater.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA3833A11B48239400B0AED3 /* lit-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA3833C51B48239400B0AED3 /* Build configuration list for PBXNativeTarget "lit-ios" */;
+			buildPhases = (
+				209D3EADD811B590AE6EAE2F /* Check Pods Manifest.lock */,
+				EA38339E1B48239400B0AED3 /* Sources */,
+				EA38339F1B48239400B0AED3 /* Frameworks */,
+				EA3833A01B48239400B0AED3 /* Resources */,
+				54D3BC466C4DFA7F6CA09F05 /* Copy Pods Resources */,
+				EA77692E1B7B8BC2005D9395 /* Embed App Extensions */,
+				EBCA29686FD744DEA93EFB0E /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA7769291B7B8BC2005D9395 /* PBXTargetDependency */,
+			);
+			name = "lit-ios";
+			productName = "lit-ios";
+			productReference = EA3833A21B48239400B0AED3 /* lit-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA7769201B7B8BC1005D9395 /* LITKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA77692D1B7B8BC2005D9395 /* Build configuration list for PBXNativeTarget "LITKeyboard" */;
+			buildPhases = (
+				E24EBEDD8DA360726F04A52C /* Check Pods Manifest.lock */,
+				EA77691D1B7B8BC1005D9395 /* Sources */,
+				EA77691E1B7B8BC1005D9395 /* Frameworks */,
+				EA77691F1B7B8BC1005D9395 /* Resources */,
+				706926AEC1AF8596FE152376 /* Embed Pods Frameworks */,
+				848D65D01CC2ADC4000CAFC1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LITKeyboard;
+			productName = LITKeyboard;
+			productReference = EA7769211B7B8BC1005D9395 /* LITKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA38339A1B48239400B0AED3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					KeyboardViewController,
+				);
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Lit Inc.";
+				TargetAttributes = {
+					EA3833A11B48239400B0AED3 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 74QN8VUEEB;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					EA7769201B7B8BC1005D9395 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 74QN8VUEEB;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = EA38339D1B48239400B0AED3 /* Build configuration list for PBXProject "lit-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA3833991B48239400B0AED3;
+			productRefGroup = EA3833A31B48239400B0AED3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA3833A11B48239400B0AED3 /* lit-ios */,
+				EA7769201B7B8BC1005D9395 /* LITKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA3833A01B48239400B0AED3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B94C151CA2814000211050 /* LITKeyboard.storyboard in Resources */,
+				84B94C091CA1F31300211050 /* LITKBEmojiCollectionViewCell.xib in Resources */,
+				EA18F2951B84C4F200FD2DB6 /* LITSimpleSoundbiteTableViewCell.xib in Resources */,
+				EA8081E11BBD3E5F00ABE52A /* LITKeyboardHeaderView.xib in Resources */,
+				EA3833B11B48239400B0AED3 /* Main.storyboard in Resources */,
+				EA3833B61B48239400B0AED3 /* LaunchScreen.xib in Resources */,
+				EA335E051BC58C4B00E40001 /* secondTutorialVideo.m4v in Resources */,
+				EA8F5FD81B7A1371006C48F2 /* Default-568h@2x.png in Resources */,
+				EAB3B9401B67CFC20000F7D4 /* LITDubTableViewCell.xib in Resources */,
+				EA3833B31B48239400B0AED3 /* Images.xcassets in Resources */,
+				EA1BA71A1BC51313003C64AB /* thirdTutorialVideo.m4v in Resources */,
+				EA8081DC1BBD3BD800ABE52A /* LITKeyboardFooterView.xib in Resources */,
+				569B674F1B99F3AD00AD9939 /* LITOptionsTableViewCell.xib in Resources */,
+				565FF24D1BE28AE6000F22E9 /* extensionInstallTutorialVideo.m4v in Resources */,
+				EACC97DB1BC6C12F00738164 /* pop.aiff in Resources */,
+				EA7D22BD1B66465E006BC50E /* LITSoundbiteTableViewCell.xib in Resources */,
+				EAFF66D71BCE779F009F7731 /* Tutorial-iPhone4.storyboard in Resources */,
+				EAD3D5D41BC3E9FB003AFB54 /* Tutorial.storyboard in Resources */,
+				569483541BA85FEA0071EE11 /* LITKeyboardActionSheetHeader.xib in Resources */,
+				EA3C02A81B81EC530010AD93 /* LITKBLyricCollectionViewCell.xib in Resources */,
+				EA7D22C11B664683006BC50E /* LITLyricsTableViewCell.xib in Resources */,
+				EA9479C91BB5CF4300E3B0FC /* LITKBEmptyCollectionViewCell.xib in Resources */,
+				EA1BA71C1BC5131C003C64AB /* firstTutorialVideo.m4v in Resources */,
+				56431BFB1C031FE500486AD2 /* TermsOfUse.pdf in Resources */,
+				56431BFA1C031FE500486AD2 /* PrivacyPolicy.pdf in Resources */,
+				EAFE97031BB01A8700C31520 /* mute.caf in Resources */,
+				EA7D22BF1B664670006BC50E /* LITKeyboardTableViewCell.xib in Resources */,
+				56EE9EF31B7E4E0500CDAA94 /* LITProfileHeader.xib in Resources */,
+				EA3C02A61B81EC4E0010AD93 /* LITKBSoundbiteCollectionViewCell.xib in Resources */,
+				EA3C02A71B81EC510010AD93 /* LITKBDubCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA77691F1B7B8BC1005D9395 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEEDB39E1CC48B4200F26F31 /* SF-UI-Text-Regular.otf in Resources */,
+				EAD1DC101B7B8DE400BC0468 /* LITKeyboard.storyboard in Resources */,
+				EA8A7E5E1B7BBD7200436461 /* LITKBSoundbiteCollectionViewCell.xib in Resources */,
+				EA8A7E6B1B7BBDBC00436461 /* LITKBLyricCollectionViewCell.xib in Resources */,
+				CEF99FDA1CBB72080033BE28 /* Keyboard.storyboard in Resources */,
+				EAD9D7191BB5A12F00367AF5 /* mute.caf in Resources */,
+				CEA249A21CBCF97900611A26 /* KeyboardAssets.xcassets in Resources */,
+				84B94C071C9EFD9100211050 /* LITKBEmojiCollectionViewCell.xib in Resources */,
+				EA95F8A81BB5BBE000D52A0C /* LITKBEmptyCollectionViewCell.xib in Resources */,
+				EA8A7E631B7BBD8500436461 /* LITKBDubCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		209D3EADD811B590AE6EAE2F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		54D3BC466C4DFA7F6CA09F05 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lit-ios/Pods-lit-ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		706926AEC1AF8596FE152376 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LITKeyboard/Pods-LITKeyboard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		848D65D01CC2ADC4000CAFC1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd \"${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/\"\nif [[ -d \"Frameworks\" ]]; then\nrm -fr Frameworks\nfi\n";
+		};
+		E24EBEDD8DA360726F04A52C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EBCA29686FD744DEA93EFB0E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lit-ios/Pods-lit-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA38339E1B48239400B0AED3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B94C0A1CA1F37000211050 /* LITKBEmojiCollectionViewCell.m in Sources */,
+				EA3C02A41B81E77C0010AD93 /* UIViewController+LITKeyboardCellConfigurator.m in Sources */,
+				EAE921BE1B9D8EA90094416B /* LITProfileContentViewController.m in Sources */,
+				EA01A42A1B612BA500ABD780 /* LITTopSongsSelectionViewController.m in Sources */,
+				EA3C02A01B81E4AE0010AD93 /* LITKBDubCollectionViewCell.m in Sources */,
+				EA871BE91BC438C40095AF0E /* LITTutorialFirstViewController.m in Sources */,
+				EA4310671B4C59CA00B122A6 /* LITSoundbitesViewController.m in Sources */,
+				56B182331BA83E7300AECA64 /* LITKeyboardActionSheetHeader.m in Sources */,
+				EA8081E01BBD3E5F00ABE52A /* LITKeyboardHeaderView.m in Sources */,
+				EACF21171B9710F200294804 /* LITSearchBar.m in Sources */,
+				EA2D0F801B85CED800D3368F /* LITDubsViewController.m in Sources */,
+				569D279D1BE0DB8E00BD8522 /* LITTaggingTutorialViewController.m in Sources */,
+				EA1BA7281BC51865003C64AB /* LITTutorialFourthViewController.m in Sources */,
+				EA3833AB1B48239400B0AED3 /* AppDelegate.m in Sources */,
+				EAA0A3FD1B8CCEC2009FDDD9 /* LITSimpleLyricsTableViewCell.m in Sources */,
+				84364E2F1C8B13C70005E9AE /* DataKeeper.m in Sources */,
+				EA2FC5861B568C880086278F /* LITDubCreationViewController.m in Sources */,
+				EA71F0A61BAAC6C90016BC1C /* BridgeLayer.swift in Sources */,
+				56B729B21BA3373C001C8830 /* LITShareHelper.m in Sources */,
+				56EE9EF61B7E52FC00CDAA94 /* LITSettingsTableViewCell.m in Sources */,
+				56600AC21BE36E7C00117695 /* WSCoachMarksView.m in Sources */,
+				EA5C4B4D1BFB20CA00F52BA4 /* LITSong.m in Sources */,
+				EA8E577A1B8732D3008820C9 /* LITBaseKeyboardViewController.m in Sources */,
+				EA1BA71F1BC5139A003C64AB /* LITTutorialThirdViewController.m in Sources */,
+				EA2471FA1B4E693600507CEF /* LITSettingsViewController.m in Sources */,
+				56BA20941BB92D820002EA5C /* UIImage+emoji.m in Sources */,
+				EAFE97011BB0143C00C31520 /* SharkfoodMuteSwitchDetector.m in Sources */,
+				EA71F0A71BAAC6C90016BC1C /* Cross.swift in Sources */,
+				569B67521B99F88500AD9939 /* UICollectionView+OptionsPresenting.m in Sources */,
+				EA143AA31B832A790085F2A6 /* LITAddToKeyboardViewController.m in Sources */,
+				56971D541B85BF9600BE2299 /* LITGestureRecognizerView.m in Sources */,
+				EA5625731B74B41800546DE0 /* LITKeyboardBar.m in Sources */,
+				EA2472001B4E6E8100507CEF /* LITFAQViewController.m in Sources */,
+				5681512F1B8DD07200AA3178 /* LITProgressHud.m in Sources */,
+				EAD82DA41B7A4BD3009BC71B /* LITAdjustableLabel.m in Sources */,
+				EA8F5FD61B78F21A006C48F2 /* UIView+GradientBackground.m in Sources */,
+				EAB3B93E1B67CF870000F7D4 /* LITDubTableViewCell.m in Sources */,
+				5650913E1BCD055E005E4A1A /* CUSSenderLayer.m in Sources */,
+				EACF211A1B97113A00294804 /* LITSearchController.m in Sources */,
+				EAA0A3FA1B8CC0C6009FDDD9 /* LITSongTableViewCell.m in Sources */,
+				EA9479CB1BB5CF4C00E3B0FC /* LITKBEmptyCollectionViewCell.m in Sources */,
+				56B1822D1BA8298B00AECA64 /* LITActionSheet.m in Sources */,
+				EA143AA61B8331180085F2A6 /* LITAddToKeyboardTableViewCell.m in Sources */,
+				EAFA83F71B5F85A600843FB2 /* LITLyric.m in Sources */,
+				EAF5C0EA1B50170500A89BEC /* LITLoginViewController.m in Sources */,
+				EA2471E91B4D3C5000507CEF /* LITLyricsViewController.m in Sources */,
+				EA56257B1B74C82C00546DE0 /* UIViewController+CaptionInput.m in Sources */,
+				EACDC3AA1B4ECB84009347A2 /* LITLyricsTableViewCell.m in Sources */,
+				56F3C35A1BC67A2700B1DD6B /* LITFaqTableViewCell.m in Sources */,
+				EA5625701B74B40400546DE0 /* LITKeyboardCustomView.m in Sources */,
+				EA210BA41BA07C4F00FB1B3F /* LITCustomPushAnimator.m in Sources */,
+				569F68831B997F4A00505FD7 /* LITSoundbitePreviewViewController.m in Sources */,
+				EA43106A1B4C5B3700B122A6 /* LITSoundbiteTableViewCell.m in Sources */,
+				EA37E6331BBEE192001D93C6 /* LITCollectionViewDecorationLayout.m in Sources */,
+				56150EE71BFA52AF00653A70 /* LITTaggingCollectionViewController.m in Sources */,
+				56B284731BE272E500E32970 /* LITTutorialThirdNextViewController.m in Sources */,
+				EA2673621BFDE6AD00C564F5 /* LITAddContentViewController.m in Sources */,
+				EA1A18881B7107320041545D /* UIViewController+ProfileUpdater.m in Sources */,
+				EA2471EC1B4DA8B000507CEF /* LITDubsPickSoundbiteViewController.m in Sources */,
+				EA23059E1B4AE85E00B8A30A /* LITMainViewController.m in Sources */,
+				EA2F37D51B68DE4100835E66 /* LITHistogramControlView.m in Sources */,
+				EA5684831B5CF63800D026F6 /* LITTagCollectionViewCell.m in Sources */,
+				EAC48BE01B789BF40072B48F /* LITEmojiUtils.m in Sources */,
+				EA3C02A11B81E4B10010AD93 /* LITKBLyricCollectionViewCell.m in Sources */,
+				EA8E57831B8740FE008820C9 /* LITProfileKeyboardsViewController.m in Sources */,
+				EA2471F71B4E692800507CEF /* LITProfileViewController.m in Sources */,
+				EA3C029F1B81E4AA0010AD93 /* LITKBSoundbiteCollectionViewCell.m in Sources */,
+				EA71F0AD1BAAC6D10016BC1C /* Gooey.swift in Sources */,
+				EA18F2931B84C4DD00FD2DB6 /* LITSimpleSoundbiteTableViewCell.m in Sources */,
+				EA71F0AA1BAAC6C90016BC1C /* SpringAnimation.swift in Sources */,
+				56EE9EF11B7E4DF200CDAA94 /* LITProfileHeader.m in Sources */,
+				EA8081DB1BBD3BD800ABE52A /* LITKeyboardFooterView.m in Sources */,
+				56F416C11BCFA71700F225DA /* LITTermsOfServiceViewController.m in Sources */,
+				EA3833A81B48239400B0AED3 /* main.m in Sources */,
+				EA86E8F31B85F37C00DDBBCA /* LITMainFeedViewController.m in Sources */,
+				568517601B95BAB100A8DC03 /* UIViewController+KeyboardAnimator.m in Sources */,
+				565091411BCD0584005E4A1A /* CUSSenderFireLayer.m in Sources */,
+				EA2471F41B4E66D300507CEF /* LITUserProfileTableViewCell.m in Sources */,
+				EA3A494B1B6B63190091CF7E /* LITHandleView.m in Sources */,
+				56972B381B8386DF0083BF91 /* LITBlockFAQ.m in Sources */,
+				EA5625771B74C6C400546DE0 /* LITBlurEffect.m in Sources */,
+				EAE3365A1B57F0E00038E463 /* LITSoundbiteRecordSoundViewController.m in Sources */,
+				5650913D1BCD055E005E4A1A /* CUSSenderFallLayer.m in Sources */,
+				EA2471FD1B4E6E6A00507CEF /* LITAboutViewController.m in Sources */,
+				EA2BCCB91B95A4EB00FC46E5 /* LITSoundbitePlayerHelper.m in Sources */,
+				EA01A42D1B612EF900ABD780 /* LITLyricCreationViewController.m in Sources */,
+				EA2305A21B4AE89800B8A30A /* LITInitialViewController.m in Sources */,
+				EA86E8EF1B85F14200DDBBCA /* LITKeyboardFeedViewController.m in Sources */,
+				EA7C34CB1B6FC5B6002295C5 /* LITHistogramView.m in Sources */,
+				EA1BA7251BC51850003C64AB /* LITTutorialSecondViewController.m in Sources */,
+				EA3BE6A61B7CB33800A1110B /* UIView+BlurEffect.m in Sources */,
+				EA71F0A91BAAC6C90016BC1C /* GooeyLayer.swift in Sources */,
+				5683B1531B907C8700F50938 /* LITReportViewController.m in Sources */,
+				84B94C021C9EFBE500211050 /* LITEmoji.m in Sources */,
+				5686CFC41B87333A004E0CDD /* LITCongratsKeyboardViewController.m in Sources */,
+				56AAE5DF1BB156ED00BD26B7 /* LITEmojiSearchCollectionViewController.m in Sources */,
+				EA8078201B56964800B42639 /* LITDubPreviewViewController.m in Sources */,
+				EA8E57891B8B79E8008820C9 /* LITFavoritesKeyboard.m in Sources */,
+				EA56848B1B5D484800D026F6 /* LITSoundbite.m in Sources */,
+				560ABD011B9755630098A6A6 /* LITKBBaseCollectionViewCell.m in Sources */,
+				EA7D22B71B663931006BC50E /* LITLoadingView.m in Sources */,
+				EA71F0AB1BAAC6C90016BC1C /* Vectors.swift in Sources */,
+				EA2BCCBF1B95BF1A00FC46E5 /* LITTableSearchHelper.m in Sources */,
+				EA18F2981B84CA5500FD2DB6 /* LITBaseSoundbiteTableViewCell.m in Sources */,
+				EA1A18851B70F4D00041545D /* LITGradientNavigationBar.m in Sources */,
+				566336651B8C55F700FE1605 /* LITImageUtils.m in Sources */,
+				EACF21141B96E55400294804 /* LITContentQueryTableViewController.m in Sources */,
+				EA4310611B4C358700B122A6 /* LITReplaceInitialControllerSegue.m in Sources */,
+				EA28DCFB1B56C7B300DFDA37 /* AVUtils.m in Sources */,
+				EACC84211BD5030D00A58116 /* AKStencilButton.m in Sources */,
+				EA1BA7221BC513AA003C64AB /* LITTutorialFifthViewController.m in Sources */,
+				EA6B241A1B5E4DCE0019D342 /* LITDub.m in Sources */,
+				565F5FEF1BA9B93F00E50A76 /* LITNoInternetConnectionViewController.m in Sources */,
+				56B682191BFA349B00A879EC /* LITTaggingViewController.m in Sources */,
+				EA6790E11BA6DA9200B1849E /* LITSharedFileCache.m in Sources */,
+				EAAED5161B70D20900088FD1 /* LITTheme.m in Sources */,
+				EAF5C0DB1B4FCF5B00A89BEC /* LITSoundbiteCropSongViewController.m in Sources */,
+				EA7D22B41B662A8A006BC50E /* LITKeyboard.m in Sources */,
+				EA71F0A81BAAC6C90016BC1C /* GooeyItem.swift in Sources */,
+				563652A71BA17F93008B994F /* LITCropperViewController.m in Sources */,
+				EA7D22BA1B6639FA006BC50E /* LITRect.m in Sources */,
+				EA8E57861B8B2ED1008820C9 /* LITProfileFavoritesViewController.m in Sources */,
+				EAE3365E1B5806FE0038E463 /* LITTouchDetector.m in Sources */,
+				56B00B451B90A5A3008C0B2F /* LITFeedbackViewController.m in Sources */,
+				EAE339121BBD7AF400F66633 /* LITKeyboardTableViewCell.m in Sources */,
+				566E16481B9DD69C009CFAC0 /* LITKeyboardCellPlayerHelper.m in Sources */,
+				EA30BE7C1BA2E2A70028BDDD /* LITKeyboardInstallerHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA77691D1B7B8BC1005D9395 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B94C081CA1CC9300211050 /* LITEmoji.m in Sources */,
+				84364E301C8B262C0005E9AE /* DataKeeper.m in Sources */,
+				CE30325E1CBA2E6B00AC2838 /* NSString+StringSizeWithFont.m in Sources */,
+				EA8A7E6A1B7BBDBC00436461 /* LITKBLyricCollectionViewCell.m in Sources */,
+				EA233AD71BC28E4F006D2676 /* LITKeyboardTutorialViewController.m in Sources */,
+				56064A6E1B970278001950B4 /* LITProgressHud.m in Sources */,
+				CE3032581CBA2E6B00AC2838 /* AKTagCell.m in Sources */,
+				EA95F8A71BB5BBE000D52A0C /* LITKBEmptyCollectionViewCell.m in Sources */,
+				EA8A7E6D1B7BC61000436461 /* LITSoundbite.m in Sources */,
+				CE30325A1CBA2E6B00AC2838 /* AKTagsListView.m in Sources */,
+				EA8A7E581B7BBD3300436461 /* LITKeyboardViewController.m in Sources */,
+				56C507F01B9DF87A002B8AF6 /* AVUtils.m in Sources */,
+				EA8A7E5D1B7BBD7200436461 /* LITKBSoundbiteCollectionViewCell.m in Sources */,
+				EA3BE6A81B7CB47300A1110B /* LITBlurEffect.m in Sources */,
+				EA8A7E6C1B7BBF9800436461 /* LITKeyboard.m in Sources */,
+				56064A6D1B96EAD7001950B4 /* LITKBBaseCollectionViewCell.m in Sources */,
+				EA8A7E621B7BBD8500436461 /* LITKBDubCollectionViewCell.m in Sources */,
+				EA8A7E6F1B7BC61600436461 /* LITLyric.m in Sources */,
+				EA3BE6A11B7CAB6A00A1110B /* UIView+GradientBackground.m in Sources */,
+				CE3032441CBA06C000AC2838 /* KeyboardViewController.m in Sources */,
+				CEA249A81CBCFC1A00611A26 /* LITKBLetter.m in Sources */,
+				848D65CF1CC28472000CAFC1 /* SearchViewController.m in Sources */,
+				561D05A61BB56A48003CB627 /* LITKeyboardNoAccessViewController.m in Sources */,
+				EA6790E21BA6EEE900B1849E /* LITSharedFileCache.m in Sources */,
+				EA8A7E6E1B7BC61400436461 /* LITDub.m in Sources */,
+				CEA249A91CBCFC1A00611A26 /* LITKBSymbol.m in Sources */,
+				84B94C061C9EFD9100211050 /* LITKBEmojiCollectionViewCell.m in Sources */,
+				EAD9D7181BB59F5200367AF5 /* SharkfoodMuteSwitchDetector.m in Sources */,
+				EAE339131BBD7AF400F66633 /* LITKeyboardTableViewCell.m in Sources */,
+				CE3032601CBA302B00AC2838 /* LITKeyboardsBaseViewController.m in Sources */,
+				56C507EE1B9DF6DF002B8AF6 /* UICollectionView+OptionsPresenting.m in Sources */,
+				CE30325B1CBA2E6B00AC2838 /* AKTagsLookup.m in Sources */,
+				EA8A7E721B7C9DA600436461 /* LITTheme.m in Sources */,
+				EA8A7E711B7C867900436461 /* LITAdjustableLabel.m in Sources */,
+				56C507EF1B9DF6F5002B8AF6 /* LITKeyboardCellPlayerHelper.m in Sources */,
+				EA3C02A91B81F3250010AD93 /* UIViewController+LITKeyboardCellConfigurator.m in Sources */,
+				EA3BE6A71B7CB43200A1110B /* UIView+BlurEffect.m in Sources */,
+				EA8E578A1B8B7D17008820C9 /* LITFavoritesKeyboard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA7769291B7B8BC2005D9395 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA7769201B7B8BC1005D9395 /* LITKeyboard */;
+			targetProxy = EA7769281B7B8BC2005D9395 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA3833AF1B48239400B0AED3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA3833B01B48239400B0AED3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA3833B41B48239400B0AED3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA3833B51B48239400B0AED3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA3833C31B48239400B0AED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA3833C41B48239400B0AED3 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AppStore;
+		};
+		EA3833C61B48239400B0AED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EACC0C651B8DA3C60033222C /* Pods-lit-ios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "lit-ios/lit-ios.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/lit-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-undefined",
+					dynamic_lookup,
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-weak_framework",
+					"\"Accounts\"",
+					"-weak_framework",
+					"\"AudioToolbox\"",
+					"-weak_framework",
+					"\"CoreGraphics\"",
+					"-weak_framework",
+					"\"CoreLocation\"",
+					"-weak_framework",
+					"\"Foundation\"",
+					"-weak_framework",
+					"\"QuartzCore\"",
+					"-weak_framework",
+					"\"Security\"",
+					"-weak_framework",
+					"\"Social\"",
+					"-weak_framework",
+					"\"UIKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it.itsl.lit-ios";
+				PRODUCT_NAME = "lit-ios";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/lit-ios/SwiftBridging.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EA3833C71B48239400B0AED3 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EACC0C641B8DA3C60033222C /* Pods-lit-ios.appstore.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "lit-ios/lit-ios.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/lit-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-undefined",
+					dynamic_lookup,
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-weak_framework",
+					"\"Accounts\"",
+					"-weak_framework",
+					"\"AudioToolbox\"",
+					"-weak_framework",
+					"\"CoreGraphics\"",
+					"-weak_framework",
+					"\"CoreLocation\"",
+					"-weak_framework",
+					"\"Foundation\"",
+					"-weak_framework",
+					"\"QuartzCore\"",
+					"-weak_framework",
+					"\"Security\"",
+					"-weak_framework",
+					"\"Social\"",
+					"-weak_framework",
+					"\"UIKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it.itsl.lit-ios";
+				PRODUCT_NAME = "lit-ios";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/lit-ios/SwiftBridging.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = AppStore;
+		};
+		EA6C2C7F1B8CFBBE006D69F9 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AdHoc;
+		};
+		EA6C2C801B8CFBBE006D69F9 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EACC0C681B8DA3EE0033222C /* Pods-lit-ios.adhoc.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "lit-ios/lit-ios.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/lit-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-undefined",
+					dynamic_lookup,
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-weak_framework",
+					"\"Accounts\"",
+					"-weak_framework",
+					"\"AudioToolbox\"",
+					"-weak_framework",
+					"\"CoreGraphics\"",
+					"-weak_framework",
+					"\"CoreLocation\"",
+					"-weak_framework",
+					"\"Foundation\"",
+					"-weak_framework",
+					"\"QuartzCore\"",
+					"-weak_framework",
+					"\"Security\"",
+					"-weak_framework",
+					"\"Social\"",
+					"-weak_framework",
+					"\"UIKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it.itsl.lit-ios";
+				PRODUCT_NAME = "lit-ios";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/lit-ios/SwiftBridging.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = AdHoc;
+		};
+		EA6C2C821B8CFBBE006D69F9 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EACC0C6A1B8DA44A0033222C /* Pods-LITKeyboard.adhoc.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = LITKeyboard/LITKeyboard.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				INFOPLIST_FILE = LITKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../../Frameworks @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/Bolts\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/CRGradientNavigationBar\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/DateTools\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/EZAudio\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/FBSDKCoreKit\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/FBSDKLoginKit\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/FBSDKLoginKit/FBSDKLoginKit\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/HMSegmentedControl\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/MDRadialProgress\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/NgEmojiMap\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/Parse\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/ParseFacebookUtilsV4\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/ParseUI\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/SCRecorder\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/TPCircularBuffer\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/UITextView+Placeholder\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/VOXHistogramView\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/ZLSinusWaveView\"",
+					"-DLIT_EXTENSION",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it.itsl.lit-ios.LITKeyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = AdHoc;
+		};
+		EA77692B1B7B8BC2005D9395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C56683FFA9AD95CE58309316 /* Pods-LITKeyboard.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = LITKeyboard/LITKeyboard.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LITKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../../Frameworks @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/Bolts\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/CRGradientNavigationBar\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/DateTools\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/EZAudio\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/FBSDKCoreKit\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/FBSDKLoginKit\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/FBSDKLoginKit/FBSDKLoginKit\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/HMSegmentedControl\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/MDRadialProgress\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/NgEmojiMap\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/Parse\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/ParseFacebookUtilsV4\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/ParseUI\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/SCRecorder\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/TPCircularBuffer\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/UITextView+Placeholder\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/VOXHistogramView\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/ZLSinusWaveView\"",
+					"-DLIT_EXTENSION",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it.itsl.lit-ios.LITKeyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EA77692C1B7B8BC2005D9395 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EACC0C6B1B8DA44A0033222C /* Pods-LITKeyboard.appstore.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = LITKeyboard/LITKeyboard.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				INFOPLIST_FILE = LITKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../../Frameworks @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/Bolts\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/CRGradientNavigationBar\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/DateTools\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/EZAudio\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/FBSDKCoreKit\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/FBSDKLoginKit\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/FBSDKLoginKit/FBSDKLoginKit\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/HMSegmentedControl\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/MDRadialProgress\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/NgEmojiMap\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/Parse\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/ParseFacebookUtilsV4\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/ParseUI\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/SCRecorder\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/TPCircularBuffer\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/UITextView+Placeholder\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/VOXHistogramView\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/ZLSinusWaveView\"",
+					"-DLIT_EXTENSION",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it.itsl.lit-ios.LITKeyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = AppStore;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA38339D1B48239400B0AED3 /* Build configuration list for PBXProject "lit-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA3833C31B48239400B0AED3 /* Debug */,
+				EA3833C41B48239400B0AED3 /* AppStore */,
+				EA6C2C7F1B8CFBBE006D69F9 /* AdHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = AppStore;
+		};
+		EA3833C51B48239400B0AED3 /* Build configuration list for PBXNativeTarget "lit-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA3833C61B48239400B0AED3 /* Debug */,
+				EA3833C71B48239400B0AED3 /* AppStore */,
+				EA6C2C801B8CFBBE006D69F9 /* AdHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = AppStore;
+		};
+		EA77692D1B7B8BC2005D9395 /* Build configuration list for PBXNativeTarget "LITKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA77692B1B7B8BC2005D9395 /* Debug */,
+				EA77692C1B7B8BC2005D9395 /* AppStore */,
+				EA6C2C821B8CFBBE006D69F9 /* AdHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = AppStore;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA38339A1B48239400B0AED3 /* Project object */;
+}

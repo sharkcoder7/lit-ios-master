@@ -1,0 +1,51 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5FFC24790072D9856D76CA0107363AD6F6B5958D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9D6FF97A89F512CD81EAE1A971A1D2EB03E03F7C" : 0,
+    "8573732F49CC1DA86995D53E03F2653BD8F193C0" : 0,
+    "CC1E7719040E3F4ECA3A269599293781399F6D6F" : 0,
+    "5F3C773F5D34288C96427F0DFCC92B118F87A278" : 0,
+    "5FFC24790072D9856D76CA0107363AD6F6B5958D" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7550ABE6-79AE-46BF-9AE3-B24EB9BEB318",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9D6FF97A89F512CD81EAE1A971A1D2EB03E03F7C" : "..\/EZAudio",
+    "8573732F49CC1DA86995D53E03F2653BD8F193C0" : "..\/RSKImageCropper",
+    "CC1E7719040E3F4ECA3A269599293781399F6D6F" : "..\/VOXHistogramView",
+    "5F3C773F5D34288C96427F0DFCC92B118F87A278" : "..\/ZLSinusWaveView",
+    "5FFC24790072D9856D76CA0107363AD6F6B5958D" : "lit-ios\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "lit-ios",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "lit-ios.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ale0xB\/ZLSinusWaveView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5F3C773F5D34288C96427F0DFCC92B118F87A278"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:itslit\/lit-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5FFC24790072D9856D76CA0107363AD6F6B5958D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ale0xB\/RSKImageCropper.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8573732F49CC1DA86995D53E03F2653BD8F193C0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ale0xB\/EZAudio.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9D6FF97A89F512CD81EAE1A971A1D2EB03E03F7C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ale0xB\/VOXHistogramView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CC1E7719040E3F4ECA3A269599293781399F6D6F"
+    }
+  ]
+}

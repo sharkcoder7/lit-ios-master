@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LITSimpleSoundbiteTableViewCell"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="LITSimpleSongTableViewCell" rowHeight="70" id="zkf-dG-3PY" userLabel="LITSimpleSongTableViewCell" customClass="LITSimpleSoundbiteTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="400" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zkf-dG-3PY" id="SPb-Du-3lR">
+                <rect key="frame" x="0.0" y="0.0" width="400" height="69"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xCb-Yn-F1V">
+                        <rect key="frame" x="13" y="20" width="30" height="30"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="GBy-FA-JbO"/>
+                            <constraint firstAttribute="width" constant="30" id="fjv-sH-6eA"/>
+                        </constraints>
+                        <state key="normal" image="play">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dLv-2B-Rhi" customClass="VOXHistogramControlView">
+                        <rect key="frame" x="52" y="5" width="309" height="60"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="60" id="epM-hm-1Fg"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="histogramHeight">
+                                <real key="value" value="60"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xfj-4J-AJJ">
+                        <rect key="frame" x="68" y="35" width="278" height="0.0"/>
+                        <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="13"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eay-T8-mP7">
+                        <rect key="frame" x="369" y="25" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="4Hp-jr-an4"/>
+                            <constraint firstAttribute="width" constant="20" id="J5z-iN-3Gp"/>
+                        </constraints>
+                        <state key="normal" image="dots-small">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="W4E-BE-XYX">
+                        <rect key="frame" x="211" y="74" width="20" height="20"/>
+                    </activityIndicatorView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Xfj-4J-AJJ" firstAttribute="centerX" secondItem="dLv-2B-Rhi" secondAttribute="centerX" id="5cU-zc-sew"/>
+                    <constraint firstAttribute="centerY" secondItem="dLv-2B-Rhi" secondAttribute="centerY" constant="-0.25" id="9fg-iB-x0C"/>
+                    <constraint firstItem="W4E-BE-XYX" firstAttribute="centerY" secondItem="dLv-2B-Rhi" secondAttribute="centerY" constant="49" id="9xl-Fi-uXU"/>
+                    <constraint firstItem="xCb-Yn-F1V" firstAttribute="leading" secondItem="SPb-Du-3lR" secondAttribute="leadingMargin" constant="5" id="DMG-DO-qUD"/>
+                    <constraint firstAttribute="centerY" secondItem="xCb-Yn-F1V" secondAttribute="centerY" constant="-0.25" id="FHH-e2-SEg"/>
+                    <constraint firstItem="dLv-2B-Rhi" firstAttribute="leading" secondItem="xCb-Yn-F1V" secondAttribute="trailing" constant="9" id="KwC-zu-mjK"/>
+                    <constraint firstItem="W4E-BE-XYX" firstAttribute="centerX" secondItem="dLv-2B-Rhi" secondAttribute="centerX" constant="14.5" id="Moi-db-Vhd"/>
+                    <constraint firstItem="Xfj-4J-AJJ" firstAttribute="width" secondItem="dLv-2B-Rhi" secondAttribute="width" multiplier="0.9" id="VB3-bJ-tyh"/>
+                    <constraint firstAttribute="centerY" secondItem="eay-T8-mP7" secondAttribute="centerY" constant="-0.25" id="bHC-Gm-VMf"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="eay-T8-mP7" secondAttribute="trailing" constant="3" id="bhk-O0-xfg"/>
+                    <constraint firstItem="eay-T8-mP7" firstAttribute="leading" secondItem="dLv-2B-Rhi" secondAttribute="trailing" constant="8" id="pHB-im-h5z"/>
+                    <constraint firstAttribute="centerY" secondItem="Xfj-4J-AJJ" secondAttribute="centerY" id="qwR-O0-L5a"/>
+                </constraints>
+                <variation key="heightClass=regular-widthClass=compact">
+                    <mask key="subviews">
+                        <include reference="xCb-Yn-F1V"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="activityIndicator" destination="W4E-BE-XYX" id="HOW-Hs-UIF"/>
+                <outlet property="histogramControlView" destination="dLv-2B-Rhi" id="WrM-eN-cNb"/>
+                <outlet property="optionsButton" destination="eay-T8-mP7" id="PBB-Ai-0ra"/>
+                <outlet property="playButton" destination="xCb-Yn-F1V" id="vP1-Rx-DFe"/>
+                <outlet property="titleLabel" destination="Xfj-4J-AJJ" id="yJy-dH-xwh"/>
+            </connections>
+            <point key="canvasLocation" x="385" y="303"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="dots-small" width="20" height="5"/>
+        <image name="play" width="30" height="30"/>
+    </resources>
+</document>
