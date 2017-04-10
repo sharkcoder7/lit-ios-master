@@ -1,6 +1,6 @@
 # lit-ios
 LitKeyboard Application
 
-https://itunes.apple.com/app/lit-keyboard/id1029418831
+http://www.itslit.com/
 
 ![LITKeyboard](1.jpeg)
